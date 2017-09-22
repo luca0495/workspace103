@@ -72,6 +72,8 @@ public class ChkDBandTab {
 			
 		
 		// ciao prova
+		// bella luca sei un fottuto genio 
+		 * 
 		}
 	*/
 	   
