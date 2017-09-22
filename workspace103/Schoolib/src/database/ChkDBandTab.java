@@ -99,7 +99,7 @@ public class ChkDBandTab {
 	 }
 	 else
 	 {
-		    System.out.println("exists table");
+		    System.out.println("ChkDBandTable :> exists table !");
 		    
 		}
 	    resultSet.close();

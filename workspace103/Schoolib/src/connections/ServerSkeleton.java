@@ -31,29 +31,37 @@ public class ServerSkeleton implements IServer, Runnable {
 		try{
 				while(!_socket.isClosed()){
 				Message myOper = ( Message ) istream.readObject() ;		//cast a Message della lettura dell'oggetto
-	
+				
+				System.out.println("SKELETON :> rx cmd :> "+myOper.getCommand().getCommandType().name());
+				
+				
 				switch (myOper.getCommand().getCommandType()){
-						
+				
+				
+				
+				
 				case CHANGE:
-					System.out.println("MODIFICA");
+					System.out.println("Skeleton :> rx cmd :> MODIFICA");
 					ostream.writeObject(modifica(myOper));
  					ostream.flush();	
 					break;		
 				
 				case READ:
-					System.out.println("LETTURA");
+					System.out.println("Skeleton :> rx cmd :>  LETTURA");
 					ostream.writeObject(visualizza(myOper));
  					ostream.flush();	
 					break;		
 					
 				case TEST:
-					System.out.println("TEST");
+					// richiamato da crea dbtest della maingui
+					
+					System.out.println("Skeleton :> rx cmd :>  TEST");
 					ostream.writeObject(test(myOper));
  					ostream.flush();	
 					break;	
 					
 				case CONNECTION:
-					System.out.println("richiesta CONNECTIONs");
+					System.out.println("Skeleton :> rx cmd :>  richiesta CONNECTIONs");
 					ostream.writeObject(connection(myOper));
  					ostream.flush();
 		 					if (myOper.getCommand()==Commands.ConnSTOP){
@@ -86,8 +94,8 @@ public class ServerSkeleton implements IServer, Runnable {
 								
 								case tableExistBook:
 									
-									System.out.println(" test DB exist ");
-									System.out.println("testaggio esistenza DB");
+									System.out.println("Skeleton :>  test DB exist ");
+									System.out.println("Skeleton :>  testaggio esistenza DB");
 									
 									//ostream.writeObject(ChkDBandTab.tableExistBook());	
 				 					ostream.flush();									
@@ -100,23 +108,23 @@ public class ServerSkeleton implements IServer, Runnable {
 									
 								// metodi test
 								case Test1:
-									System.out.println("M1");
+									System.out.println("Skeleton :> M1");
 									ostream.writeObject(metodotest1());
 				 					ostream.flush();	
 									break;										
 								case Test2:
-									System.out.println("M2");
+									System.out.println("Skeleton :> M2");
 									ostream.writeObject(metodotest2());
 				 					ostream.flush();	
 									break;									
 								case Test3:
-									System.out.println("M3");
+									System.out.println("Skeleton :> M3");
 									ostream.writeObject(metodotest3());
 				 					ostream.flush();	
 									break;			
 							// metodi test 			
 								default:
-									System.out.println("richiesta indefinita "); 
+									System.out.println("Skeleton :> richiesta indefinita "); 
 									break;
 						
 						}	//fine switch command
@@ -219,6 +227,7 @@ public class ServerSkeleton implements IServer, Runnable {
 	}
 	@Override
 	public MessageBack test(Message M) throws RemoteException {
+		
 		System.out.println("procede SKELETON");
 		return null;
 	}

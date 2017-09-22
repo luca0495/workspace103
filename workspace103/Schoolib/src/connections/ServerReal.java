@@ -79,8 +79,12 @@ public class ServerReal extends ServerSkeleton {
 	//test
 	@Override
 	public MessageBack test (Message msg) {	
-				System.out.println("REAL SERVER :> GESTISCO RICHIESTA test");
+				System.out.println( "REAL SERVER :> GESTISCO RICHIESTA ... ... ... test "+
+									""+msg.getCommand());
 		MessageBack x = new MessageBack();
+				
+		
+		
 		switch (msg.getCommand()) {		
 			case ConnTEST:
 				//System.out.println(mSg = "REALServer:> TEST connessione richiesto ");
@@ -96,7 +100,22 @@ public class ServerReal extends ServerSkeleton {
 				System.out.println("REALServer:> attuale numero connessioni : "+ Server.getSrvconn() +"\n"); 	
 				System.out.println("REALServer:> chiusura socket...");
 				break;		
+			// era mancante...
+			case tableExistBook:
+				System.out.println("REAL SERVER :> Gestisco RICHIESTA :> tableExistBook ");
+				
+					try {
+						database.ChkDBandTab.tableExistBook();
+						
+						
+					} catch (SQLException e) {
+						System.out.println("problemi con controllo tabella");
+						e.printStackTrace();
+					}
+				
+				break;
 			default:
+				System.out.println("REAL SERVER :> Gestisco RICHIESTA ... ... ... ???? ");
 				break;
 		}	
 		return x;

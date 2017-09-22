@@ -77,9 +77,9 @@ public class ServerStub implements Serializable, IServer {
 			try{				
 		mb = (MessageBack)in.readObject();
 			
-		System.out.println("STUB :> Tornata risposta da SKELETON");				
-		System.out.println("STUB :> "+mb);
-		//System.out.println("STUB :> "+mb.getText());
+		System.out.println("STUB :> Tornata risposta da SKELETON ");				
+		System.out.println("STUB :> Tornata risposta da SKELETON code    : "+mb);
+		System.out.println("STUB :> Tornata risposta da SKELETON gettest : "+mb.getText());
 				
 			}catch (IOException e){
 			e.printStackTrace();
