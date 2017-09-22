@@ -96,6 +96,9 @@ public class ChkDBandTab {
                   +"categoria varchar(15) not null,"
                   +"titolo varchar(35) not null,"
                   +"primary key(codice,nome_autore,cognome_autore,categoria,titolo))")  ;
+		 
+		 	System.out.println("ChkDBandTable :> table CREATED !");
+		 
 	 }
 	 else
 	 {

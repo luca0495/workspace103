@@ -106,9 +106,16 @@ public class ServerReal extends ServerSkeleton {
 				
 					try {
 						database.ChkDBandTab.tableExistBook();
+						getMeS().addMsg(mSg);
+						x.setText(new String ("SRV :> CHECK TABLE Exist :> OK"));
+						
 						
 						
 					} catch (SQLException e) {
+						getMeS().addMsg(mSg);
+						x.setText(new String ("SRV :> CHECK TABLE Exist :> NG..."));
+						
+						
 						System.out.println("problemi con controllo tabella");
 						e.printStackTrace();
 					}
