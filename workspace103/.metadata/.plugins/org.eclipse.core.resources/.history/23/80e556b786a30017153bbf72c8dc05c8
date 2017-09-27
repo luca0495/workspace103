@@ -104,7 +104,6 @@ public class AppMain extends SL_JFrame  {
 										
 					System.out.println(back.toString());
 					
-					// ciao Matte
 				
 					
 					//ChkDBandTab.tableExistBook();
