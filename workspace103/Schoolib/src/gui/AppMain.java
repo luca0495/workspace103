@@ -97,12 +97,21 @@ public class AppMain extends SL_JFrame  {
 				System.out.println("GUI :> comando inviato dalla gui main");
 				
 					MessageBack back = me.Request(Commands.tableExistBook); // me == Client associato alla GUI
-					
+					MessageBack back1 = me.Request(Commands.tableExistLoans);
+				    MessageBack back2 = me.Request(Commands.tableExistPerson);
+				    
 					ChkDBandTab.tableExistBook();
+					ChkDBandTab.tableExistLoans();
+					ChkDBandTab.tableExistPerson();
 					
 				System.out.println("GUI :> risposta dal DB : "+back.getText());
+				System.out.println("GUI :> risposta dal DB : "+back1.getText());
+				System.out.println("GUI :> risposta dal DB : "+back2.getText());
 										
 					System.out.println(back.toString());
+					System.out.println(back1.toString());
+					System.out.println(back2.toString());
+					
 					
 					// ciao Matte
 				    // ciao Matte1

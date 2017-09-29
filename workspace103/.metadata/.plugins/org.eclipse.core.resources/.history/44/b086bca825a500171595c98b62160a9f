@@ -97,34 +97,14 @@ public class ServerSkeleton implements IServer, Runnable {
 									System.out.println("Skeleton :>  test DB exist ");
 									System.out.println("Skeleton :>  testaggio esistenza DB");
 									
-								//	ostream.writeObject(ChkDBandTab.tableExistBook());	
-				 					ostream.flush();									
-									
-									
-									break;
-									
-									// TODO per Mauro verifica
-                                   case tableExistLoans:     
-									
-									System.out.println("Skeleton :>  test DB exist ");
-									System.out.println("Skeleton :>  testaggio esistenza DB");
-									System.out.println("Loans");
 									//ostream.writeObject(ChkDBandTab.tableExistBook());	
 				 					ostream.flush();									
 									
 									
 									break;
-									// TODO per Mauro verifica
-                                   case tableExistPerson:     
-   									
-   									System.out.println("Skeleton :>  test DB exist ");
-   									System.out.println("Skeleton :>  testaggio esistenza DB");
-   									System.out.println("Loans");
-   									//ostream.writeObject(ChkDBandTab.tableExistBook());	
-   				 					ostream.flush();									
-   									
-   									
-   									break;
+									
+									
+									
 									
 								// metodi test
 								case Test1:

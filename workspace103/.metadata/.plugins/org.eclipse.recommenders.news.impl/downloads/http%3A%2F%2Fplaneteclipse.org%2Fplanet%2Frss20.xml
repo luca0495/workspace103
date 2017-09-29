@@ -8,11 +8,247 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Mike Milinkovich: Introducing EE4J: The first  step towards Java EE at the Eclipse Foundation</title>
+	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1382</guid>
+	<link>https://mmilinkov.wordpress.com/2017/09/28/introducing-ee4j/</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;I am very excited and proud to introduce the new top-level &lt;/span&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/ee4j/charter&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse Enterprise for Java (EE4J) project&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. For those that might not have heard, Oracle has announced their intention to move Java EE to the Eclipse Foundation. Creating the EE4J top-level project is the first step to making this a reality. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mmilinkov.wordpress.com/2017/09/12/java-ee-moves-to-the-eclipse-foundation/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Moving Java EE to the Eclipse Foundation&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; is going to be an exciting and massive undertaking. It is a significant opportunity to use the Eclipse open development model to accelerate innovation in Java for enterprise and cloud native computing. We look forward to engaging with the millions of developers and organizations using Java EE. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The Java EE technology is a very large portfolio of source code, TCKs and specifications. Moving all of Java EE will be a significant undertaking for the community. For instance,&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The GlassFish open source project includes 130 github repos. Moving these existing GlassFish open source projects to the Eclipse Foundation, and getting all of the various sub-projects set up and under the Eclipse development process will take some time.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The Java EE TCKs will be moved to Eclipse open source projects and be available to the community.  What this means and how the community interacts with the TCKs needs to be defined. &lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Create an open build infrastructure so EE4J can be built and tested by the community.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Establish a new specification process under the auspices of the Eclipse Foundation.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The good news is Oracle, along with IBM and Red Hat, is moving incredibly fast. Publishing the top-level project charter is an important first step. However, we are aware that there are literally millions of developers who have a vested interest in the future of the enterprise edition of the Java Platform, and who quite rightfully would like to have detailed plans now for how and when the above list are going to be completed. Unfortunately, the details are going to take some time to plan and execute. Moving Java EE to the Eclipse Foundation is going to be process, not an event. I do expect this will be an open process that encourages community members to contribute.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Today marks a very significant milestone in our journey. We are pleased to announce that the &lt;/span&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/ee4j/charter&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;draft charter&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; for the Eclipse Enterprise for Java top-level project is now available for community review and feedback. We have created the &lt;/span&gt;&lt;a href=&quot;https://dev.eclipse.org/mailman/listinfo/ee4j-community&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;ee4j-community&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; mailing list for the community to use to provide that feedback, so please subscribe to the list and join the conversation!&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://mmilinkov.wordpress.com/category/foundation/&quot;&gt;Foundation&lt;/a&gt;, &lt;a href=&quot;https://mmilinkov.wordpress.com/category/open-source/&quot;&gt;Open Source&lt;/a&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/mmilinkov.wordpress.com/1382/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/mmilinkov.wordpress.com/1382/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=mmilinkov.wordpress.com&amp;amp;blog=19461799&amp;amp;post=1382&amp;amp;subd=mmilinkov&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 29 Sep 2017 00:30:17 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Eclipse IoT Announces Fourth Edition of the Open IoT Challenge</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/yLHMta_TI9M/20170928_open_iot_challenge_4.php</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/yLHMta_TI9M/20170928_open_iot_challenge_4.php</link>
+	<description>IoT enthusiast? This Challenge is for you! Submit your IoT solution proposal by November 13.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/yLHMta_TI9M&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Thu, 28 Sep 2017 14:10:00 +0000</pubDate>
+</item>
+<item>
+	<title>Maximilian and Jonas: EMF Support for Che – Day 6: Adding your own editor</title>
+	<guid isPermaLink="false">https://eclipsesource.com/?p=35566</guid>
+	<link>https://eclipsesource.com/blogs/2017/09/28/emf-support-for-che-day-6-adding-your-own-editor/</link>
+	<description>&lt;p&gt;In this blog series, we share our experiences extending &lt;a href=&quot;http://www.eclipse.org/che/&quot;&gt;Eclipse Che&lt;/a&gt; to add EMF support. The &lt;a href=&quot;https://eclipsesource.com/blogs/2017/02/08/emf-support-for-che-day-0-motivation-and-getting-started/&quot;&gt;first post&lt;/a&gt; covers our goals. In the last post, we have focused on how to extend Che by adding a custom plugin. So far, we have registered a file extension for +.ecore files and can control the editor to be opened for this file type. We still can open a plain text editor for Ecore files.&lt;/p&gt;
+&lt;p&gt;The next step is to add a custom editor to support modeling in Ecore as you are used to in classic Eclipse. The existing editor for EMF is written in SWT, we therefore cannot simply reuse it, as we &lt;a href=&quot;https://eclipsesource.com/blogs/2017/02/23/emf-support-for-che-day-2-generating-code/&quot;&gt;did for the code generation&lt;/a&gt;. So, let’s have a look at the different options to implement a new Ecore editor within Che. As described in the &lt;a href=&quot;https://eclipsesource.com/blogs/2017/02/08/emf-support-for-che-day-0-motivation-and-getting-started/&quot;&gt;first blog post&lt;/a&gt;, our first goal is a form-based editor such as the default Ecore tooling rather than a textual or graphical editor. However, the following considerations are pretty much the same.&lt;/p&gt;
+&lt;p&gt;Che provides a flexible extension mechanism to register editors based on the corresponding file type, as well as a frame (tab) for the same (see &lt;a href=&quot;https://www.eclipse.org/che/docs/assemblies/sdk-code-editors/index.html&quot;&gt;&lt;span&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span&gt; for more details). Therefore, we primarily  need to consider the inner part of our editor, meaning the part showing the actual content of the file.&lt;/span&gt;&lt;br /&gt;
+For this, we have basically three choices:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span&gt;Extend the existing code editor (which is based on Orion)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Write a new Editor using GWT (Che is implemented with GWT)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Embed an existing HTML/JavaScript component&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you want to modify any text-based artefact, the first option is probably the simplest and best choice. In this case, you would extend the Orion editor with custom syntax highlighting, code completion, etc. Please see &lt;a href=&quot;https://www.eclipse.org/che/docs/assemblies/sdk-code-editors/index.html#code-completion&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span&gt; for more details. For our Ecore Editor, we are aiming for a form-based solution, so for us, the Orion editor is not really an option.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The second option, using the Google Widget Toolkit, is probably the simplest one if you need to implement an editor from scratch. As you use the same technology as the surrounding application (Che), integration is straight-forward and you can directly use all of the Che APIs. Finally, you can implement your editor in Java (as supported by GWT). However, you need GWT experience and the GWT ecosystem is not as active anymore.&lt;/p&gt;
+&lt;p&gt;The third option is actually the most flexible one. As Che is an HTML/JavaScript application, you could potentially embed any web framework you prefer to create an editor. This gives you access to the very vital ecosystem of HTML/JavaScript frameworks. It also makes your editor independant of Che, such that you can write it once and also use a stand-alone solution or embed it into another web IDE such as Atom or Theia. Further, this option makes your development cycle more efficient. You can first develop a stand-alone component with very short build cycles and easy debugging, and then later, embed it into the framework.&lt;/p&gt;
+&lt;p&gt;As you might have guessed, we have chosen the third option for our Ecore Editor prototype. Before we present the actual editor, let us look more in detail at the way to embed HTML into an existing GWT application (Che). The basic idea is described in &lt;a href=&quot;https://www.eclipse.org/che/docs/assemblies/sdk-embed-htmljs/index.html&quot;&gt;this tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To embed our own existing HTML/JavaScript component in Che we need to accomplish three tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Include our own HTML&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Include our own Javascript&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Include our own CSS&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Che uses the Model-View-Presenter pattern &lt;a href=&quot;http://www.gwtproject.org/articles/mvp-architecture.html&quot;&gt;recommended by the GWT developers&lt;/a&gt; to implement everything UI related, ranging from simple popups to more complex editors. For embedding HTML in Che you can extend and configure the provided BaseView class. This allows you to register a special &lt;a href=&quot;http://www.gwtproject.org/doc/latest/DevGuideUiBinder.html&quot;&gt;GWT-UI Binder xml file&lt;/a&gt; in which you can specify your own HTML.&lt;/p&gt;
+&lt;p&gt;To embed your Javascript you need to implement a presenter. For editors, Che provides the AbstractEditorPresenter which already includes useful functionality like dirty-state-handling. In your implementation you can call the &lt;a href=&quot;http://www.gwtproject.org/javadoc/latest/com/google/gwt/core/client/ScriptInjector.html&quot;&gt;GWT ScriptInjector&lt;/a&gt; to inject your Javascript files when the editor initializes. Once they are loaded you must call the previously implemented view to show your defined HTML.&lt;/p&gt;
+&lt;p&gt;Usually, you then need to communicate with your Javascript library, for example to provide data coming from Che. For this you can use &lt;a href=&quot;http://www.gwtproject.org/doc/latest/DevGuideCodingBasicsOverlay.html&quot;&gt;GTW Overlays&lt;/a&gt;. Overlays are Java classes representing JavaScript objects. You can use them within your implemented view.&lt;/p&gt;
+&lt;p&gt;You can add your CSS at the same point where you register your plugin extension by adding it to the Che HTML document. However you should make sure to scope your CSS classes so they do not overwrite CSS defined by Che.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone wp-image-35591 size-full&quot; height=&quot;465&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/09/image2.png&quot; width=&quot;797&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Now you only need to register your editor presenter for an existing or newly defined file type so that the custom HTML/JavaScript component is rendered and that is basically it.&lt;/p&gt;
+&lt;p&gt;The following screenshot shows a simple custom editor which displays statically defined HTML via the BasicView approach described above. Stay tuned for the next blog days where we show how to use the Model-View-Presenter pattern to embed our own, more complex, stand-alone UI component into Che, which will show the contents of an Ecore file.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone wp-image-35593 size-full&quot; height=&quot;401&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/09/image8.png&quot; width=&quot;757&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;If you are interested in learning more about the prototype for EMF support, if you want to contribute or sponsor its further development, or if you want support for creating your own extension for Che, please feel free to &lt;a href=&quot;mailto:munich@eclipsesource.com&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;List of all available days to date:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/02/08/emf-support-for-che-day-0-motivation-and-getting-started/&quot;&gt;Day 0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/02/14/emf-support-for-che-day-1-run-che-and-import-existing-emf-project/&quot;&gt;Day 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/02/23/emf-support-for-che-day-2-generating-code/&quot;&gt;Day 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/03/01/emf-support-for-che-day-3-adding-a-custom-workspace-stack/&quot;&gt;Day 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/03/15/emf-support-for-che-day-4-building-che/&quot;&gt;Day 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/07/21/emf-support-for-che-day-5&quot;&gt;Day 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/09/27/emf-support-for-che-day-6-adding-your-own-editor&quot;&gt;Day 6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+	<pubDate>Thu, 28 Sep 2017 10:40:30 +0000</pubDate>
+</item>
+<item>
+	<title>Michael Spector: Profiling Spark Applications: The Easy Way</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-34385728.post-4362206950328131090</guid>
+	<link>http://spektom.blogspot.com/2017/06/profiling-spark-applications-easy-way.html</link>
+	<description>&lt;div&gt;&lt;br /&gt;&lt;/div&gt;Recently, I thought about some one-click way to profile Spark applications, so it could be easily integrated in any work environment without the need to configure the system.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;The modern way to report profile statistics about an application (any application, not just Spark or Java application) is generating a single .SVG file called &quot;flame graph&quot;. Since this is a regular vector graphic format, the file can be opened in any browser. Moreover, you can navigate between different stack frames by clicking on them, and even search for a symbol name by clicking on &quot;Search&quot; link.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;This is how sample flame graph looks like:&lt;br /&gt;&lt;div class=&quot;slate-resizable-image-embed slate-image-embed__resize-full-width&quot; contenteditable=&quot;false&quot;&gt;&lt;ul class=&quot;slate-image-embed__toolbar&quot; style=&quot;background-position: 0px 0px; border: 0px; height: 48px; line-height: 32px; padding: 0px 0px 8px; vertical-align: baseline; width: 744px;&quot;&gt;&lt;li style=&quot;background-position: 0px 0px; border: 0px; display: inline-block; margin: 0px 4px; padding: 0px; vertical-align: baseline;&quot;&gt;&lt;button class=&quot;slate-image-embed-button__resize-left slate-image-embed-button&quot;&gt;&lt;/button&gt;&lt;/li&gt;&lt;li style=&quot;background-position: 0px 0px; border: 0px; display: inline-block; margin: 0px 4px; padding: 0px; vertical-align: baseline;&quot;&gt;&lt;button class=&quot;slate-image-embed-button__resize-middle slate-image-embed-button&quot;&gt;&lt;/button&gt;&lt;/li&gt;&lt;li style=&quot;background-position: 0px 0px; border: 0px; display: inline-block; margin: 0px 4px; padding: 0px; vertical-align: baseline;&quot;&gt;&lt;button class=&quot;slate-image-embed-button__resize-full-width slate-image-embed-button slate-image-embed-button__active&quot;&gt;&lt;/button&gt;&lt;/li&gt;&lt;li style=&quot;background-position: 0px 0px; border: 0px; display: inline-block; margin: 0px 4px; padding: 0px; vertical-align: baseline;&quot;&gt;&lt;button class=&quot;slate-image-embed-button__resize-bleed slate-image-embed-button&quot;&gt;&lt;/button&gt;&lt;/li&gt;&lt;li style=&quot;background-position: 0px 0px; border: 0px; display: inline-block; margin: 0px 4px; padding: 0px; vertical-align: baseline;&quot;&gt;&lt;button class=&quot;slate-image-embed-button__resize-right slate-image-embed-button&quot;&gt;&lt;/button&gt;&lt;/li&gt;&lt;/ul&gt;&lt;img class=&quot;slate-image-embed__resize-full-width&quot; src=&quot;https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAt_AAAAJDQ4YTE2NTE3LTc1ZGEtNDk1OC04MTQ0LWNhNWJhMzFlMTI2Mg.png&quot; style=&quot;background-position: 0px 0px; border: 0px; display: inline-block; height: auto; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 744px;&quot; /&gt;&lt;/div&gt;The y-axis shows the stack depth while the x-axis shows time spent in a stack frame.&lt;br /&gt;&lt;br /&gt;In order to generate flame graphs, there are two mandatory processes usually: &lt;br /&gt;&lt;ul&gt;&lt;li&gt;Capture stack traces from a running process, and dump them to disk. &lt;/li&gt;&lt;li&gt;Parse these stack traces, and generate .SVG file. &lt;/li&gt;&lt;/ul&gt;For Java based applications it stack traces can be gathered using commercial features of Oracle JDK (using -XX:+FlightRecorder option). There's an &lt;a href=&quot;https://gist.github.com/kayousterhout/7008a8ebf2babeedc7ce6f8723fd1bf4&quot;&gt;article&lt;/a&gt; that explains how to profile Spark applications using this option.&lt;br /&gt;&lt;br /&gt;In OpenJDK this feature is not available, but luckily there are other options. Once of them is using &lt;a href=&quot;https://github.com/etsy/statsd-jvm-profiler&quot;&gt;statsd JVM profiler&lt;/a&gt; library from &lt;a href=&quot;http://etsy.com/&quot;&gt;Etsy&lt;/a&gt;. This library integrates as agent into JVM, gathers statistics like CPU or memory usage, and send it to &lt;a href=&quot;https://github.com/etsy/statsd&quot;&gt;statsd&lt;/a&gt; server in real time. Apparently, this library supports reporting to InfluxDB &lt;a href=&quot;https://github.com/etsy/statsd-jvm-profiler/blob/master/src/main/java/com/etsy/statsd/profiler/reporter/InfluxDBReporter.java&quot;&gt;as well&lt;/a&gt; .&lt;br /&gt;&lt;br /&gt;&lt;div&gt;Keeping the above in mind, the whole process will look like this:&lt;br /&gt;&lt;ol&gt;&lt;li&gt;Have InfluxDB running on random port.&lt;/li&gt;&lt;li&gt;Start Spark with the statsd profiler Jar in its classpath and with the configuration that tells it to report statistics back to the InfluxDB instance.&lt;/li&gt;&lt;li&gt;After running Spark application, query all the reported metrics from the InfluxDB instance.&lt;/li&gt;&lt;li&gt;Run a script that generates the target report.&lt;/li&gt;&lt;li&gt;Stop the InfluxDB instance.&lt;/li&gt;&lt;li&gt;Store generated .SVG file somewhere, or send it to someone.&lt;/li&gt;&lt;/ol&gt;The following script is a wrapper to ‘spark-submit’ command, which does all that:&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://github.com/spektom/spark-flamegraph/blob/master/spark-submit-flamegraph&quot;&gt;https://github.com/spektom/spark-flamegraph/blob/master/spark-submit-flamegraph&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;For the sake of justice, it should be noted that the following utilities must present on your system prior to running the script: perl, python2.7 and pip. Otherwise, the script was used in Amazon EMR environment without any issues. Just use the script instead of usual spark-submit command, and it will profile your application. and create a report:&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;pre class=&quot;brush:bash&quot;&gt;[hadoop@ip-10-121-4-244 tmp]$ ./spark-submit-flamegraph --name 'etlite' --jars file://$(pwd)/probe-events-1.0.jar etlite_2.11-0.1.0.jar s3://mobility-artifacts/airflow/latest/config/etlite.conf&lt;br /&gt;[2017-06-05T12:34:05] Installing dependencies&lt;br /&gt;[2017-06-05T12:34:09] Starting InfluxDB&lt;br /&gt;[2017-06-05T12:34:10] Executing: spark-submit --jars /home/hadoop/.spark-flamegraph/statsd-jvm-profiler.jar,file:///tmp/probe-events-1.0.jar --conf spark.executor.extraJavaOptions=-javaagent:statsd-jvm-profiler.jar=server=10.121.4.244,port=48081,reporter=InfluxDBReporter,database=profiler,username=profiler,password=profiler,prefix=sparkapp,tagMapping=spark --name etlite etlite_2.11-0.1.0.jar s3://mobility-artifacts/airflow/latest/config/etlite.conf&lt;br /&gt;17/06/05 12:34:11 INFO Main$: Configuration file = 's3://mobility-artifacts/airflow/latest/config/etlite.conf'&lt;br /&gt;17/06/05 12:34:14 INFO S3NativeFileSystem: Opening 's3://mobility-artifacts/airflow/latest/config/etlite.conf' for reading&lt;br /&gt;17/06/05 12:34:15 INFO SparkContext: Running Spark version 2.1.0&lt;br /&gt;&lt;br /&gt;... running Spark application ...&lt;br /&gt;&lt;br /&gt;17/06/05 12:35:17 INFO SparkContext: Successfully stopped SparkContext&lt;br /&gt;17/06/05 12:35:17 INFO ShutdownHookManager: Shutdown hook called&lt;br /&gt;17/06/05 12:35:17 INFO ShutdownHookManager: Deleting directory /mnt/tmp/spark-fa12133c-b605-4a73-814a-2dfd4ed6fdde&lt;br /&gt;&lt;br /&gt;... generating .svg file ...&lt;br /&gt;&lt;br /&gt;[2017-06-05T12:35:25] Created flamegraph: /tmp/flamegraph.svg&lt;br /&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;Integrating this script into Airflow Spark operator is straightforward, especially if your Spark operator is derived from BashOperator. Just make sure the script is available on all Spark Airflow workers, then do the replacement of spark-submit command depending on whether profile=True is passed as the operator argument.&lt;br /&gt;&lt;br /&gt;Post your weird flame graphs in comments! :)&lt;/div&gt;</description>
+	<pubDate>Thu, 28 Sep 2017 04:26:09 +0000</pubDate>
+	<author>noreply@blogger.com (Michael)</author>
+</item>
+<item>
+	<title>vert.x project: An Eclipse Vert.x Gradle Plugin</title>
+	<guid isPermaLink="true">http://vertx.io/blog/an-eclipse-vert-x-gradle-plugin</guid>
+	<link>http://vertx.io/blog/an-eclipse-vert-x-gradle-plugin</link>
+	<description>&lt;article&gt;&lt;p&gt;Eclipse Vert.x is a versatile toolkit, and as such it does not have any strong opinion on the tools that you should be using.&lt;/p&gt;
+&lt;p&gt;Gradle is a popular build tool in the JVM ecosystem, and it is quite easy to use for building Vert.x project as &lt;a href=&quot;https://github.com/vert-x3/vertx-examples/blob/master/gradle-verticles/gradle-verticle/build.gradle&quot;&gt;show in one of the &lt;code&gt;vertx-examples&lt;/code&gt; samples&lt;/a&gt; where a so-called &lt;em&gt;fat Jar&lt;/em&gt; is being produced.&lt;/p&gt;
+&lt;p&gt;The new &lt;a href=&quot;https://plugins.gradle.org/plugin/io.vertx.vertx-plugin&quot;&gt;Vert.x Gradle plugin&lt;/a&gt; offers an &lt;em&gt;opinionated&lt;/em&gt; plugin for building Vert.x applications with Gradle.&lt;/p&gt;
+&lt;p&gt;It automatically applies the following plugins:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;java&lt;/code&gt; (and sets the source compatibility to Java 8),&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;application&lt;/code&gt; + &lt;code&gt;shadow&lt;/code&gt; to generate fat Jars with all dependencies bundled,&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nebula-dependency-recommender-plugin&lt;/code&gt; so that you can omit versions from modules from the the Vert.x stack.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The plugin automatically adds &lt;code&gt;io.vertx:vertx-core&lt;/code&gt; as a &lt;code&gt;compile&lt;/code&gt; dependency, so you don’t need to do it.&lt;/p&gt;
+&lt;p&gt;The plugin provides a &lt;code&gt;vertxRun&lt;/code&gt; task that can take advantage of the Vert.x auto-reloading capabilities, so you can just run it then have your code being automatically compiled and reloaded as you make changes.&lt;/p&gt;
+&lt;h2 id=&quot;getting-started&quot;&gt;Getting started&lt;/h2&gt;
+&lt;p&gt;A minimal &lt;code&gt;build.gradle&lt;/code&gt; looks like:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs groovy&quot;&gt;plugins {
+  id &lt;span class=&quot;hljs-string&quot;&gt;'io.vertx.vertx-plugin'&lt;/span&gt; version &lt;span class=&quot;hljs-string&quot;&gt;'0.0.4'&lt;/span&gt;
+}
+
+repositories {
+  jcenter()
+}
+
+vertx {
+  mainVerticle = &lt;span class=&quot;hljs-string&quot;&gt;'sample.App'&lt;/span&gt;
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Provided &lt;code&gt;sample.App&lt;/code&gt; is a Vert.x verticle, then:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;gradle shadowJar&lt;/code&gt; builds an executable Jar with all dependencies: &lt;code&gt;java -jar build/libs/simple-project-fat.jar&lt;/code&gt;, and&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gradle vertxRun&lt;/code&gt; starts the application and automatically recompiles (&lt;code&gt;gradle classes&lt;/code&gt;) and reloads the code when any file under &lt;code&gt;src/&lt;/code&gt; is being added, modified or deleted.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;using-with-kotlin-or-groovy-or-&quot;&gt;Using with Kotlin (or Groovy, or…)&lt;/h2&gt;
+&lt;p&gt;The plugin integrates well with plugins that add configurations and tasks triggered by the &lt;code&gt;classes&lt;/code&gt; task.&lt;/p&gt;
+&lt;p&gt;Here is how to use the plugin with Kotlin (replace the version numbers with the latest ones…):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs groovy&quot;&gt;plugins {
+  id &lt;span class=&quot;hljs-string&quot;&gt;'io.vertx.vertx-plugin'&lt;/span&gt; version &lt;span class=&quot;hljs-string&quot;&gt;'x.y.z'&lt;/span&gt;
+  id &lt;span class=&quot;hljs-string&quot;&gt;'org.jetbrains.kotlin.jvm'&lt;/span&gt; version &lt;span class=&quot;hljs-string&quot;&gt;'a.b.c'&lt;/span&gt;
+}
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  compile &lt;span class=&quot;hljs-string&quot;&gt;'io.vertx:vertx-lang-kotlin'&lt;/span&gt;
+  compile &lt;span class=&quot;hljs-string&quot;&gt;'org.jetbrains.kotlin:kotlin-stdlib-jre8'&lt;/span&gt;
+}
+
+vertx {
+  mainVerticle = &lt;span class=&quot;hljs-string&quot;&gt;&quot;sample.MainVerticle&quot;&lt;/span&gt;
+}
+
+tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
+  kotlinOptions {
+    jvmTarget = &lt;span class=&quot;hljs-string&quot;&gt;&quot;1.8&quot;&lt;/span&gt;
+  }
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;using-with-webpack-or-any-other-custom-task-&quot;&gt;Using with WebPack (or any other custom task)&lt;/h2&gt;
+&lt;p&gt;WebPack is popular to bundle web assets, and there is even &lt;a href=&quot;https://guides.gradle.org/running-webpack-with-gradle/&quot;&gt;a guide for its integration with Gradle&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Mixing the Vert.x Gradle plugin with WebPack is very simple, especially in combination with the &lt;code&gt;com.moowork.node&lt;/code&gt; plugin that integrates Node into Gradle.&lt;/p&gt;
+&lt;p&gt;Suppose we want to mix Vert.x code and JavaScript with Gradle and WebPack.
+We assume a &lt;code&gt;package.json&lt;/code&gt; as:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs javascript&quot;&gt;{
+  &lt;span class=&quot;hljs-string&quot;&gt;&quot;name&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;webpack-sample&quot;&lt;/span&gt;,
+  &lt;span class=&quot;hljs-string&quot;&gt;&quot;version&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;0.0.1&quot;&lt;/span&gt;,
+  &lt;span class=&quot;hljs-string&quot;&gt;&quot;description&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;A sample with Vert.x, Gradle and Webpack&quot;&lt;/span&gt;,
+  &lt;span class=&quot;hljs-string&quot;&gt;&quot;main&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;src/main/webapp/index.js&quot;&lt;/span&gt;,
+  &lt;span class=&quot;hljs-string&quot;&gt;&quot;scripts&quot;&lt;/span&gt;: {
+    &lt;span class=&quot;hljs-string&quot;&gt;&quot;test&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;echo \&quot;Error: no test specified\&quot; &amp;amp;&amp;amp; exit 1&quot;&lt;/span&gt;
+  },
+  &lt;span class=&quot;hljs-string&quot;&gt;&quot;author&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;&quot;&lt;/span&gt;,
+  &lt;span class=&quot;hljs-string&quot;&gt;&quot;license&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;ISC&quot;&lt;/span&gt;,
+  &lt;span class=&quot;hljs-string&quot;&gt;&quot;devDependencies&quot;&lt;/span&gt;: {
+    &lt;span class=&quot;hljs-string&quot;&gt;&quot;webpack&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;^2.7.0&quot;&lt;/span&gt;
+  },
+  &lt;span class=&quot;hljs-string&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;: {
+    &lt;span class=&quot;hljs-string&quot;&gt;&quot;axios&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;^0.16.2&quot;&lt;/span&gt;
+  }
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and &lt;code&gt;webpack.config.js&lt;/code&gt; as:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs javascript&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;module&lt;/span&gt;.exports = {
+  entry: &lt;span class=&quot;hljs-string&quot;&gt;'./src/main/webapp/index.js'&lt;/span&gt;,
+  output: {
+    filename: &lt;span class=&quot;hljs-string&quot;&gt;'./build/resources/main/webroot/bundle.js'&lt;/span&gt;
+  }
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;build.gradle&lt;/code&gt; file is the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs groovy&quot;&gt;plugins {
+  id &lt;span class=&quot;hljs-string&quot;&gt;'io.vertx.vertx-plugin'&lt;/span&gt; version &lt;span class=&quot;hljs-string&quot;&gt;'0.0.4'&lt;/span&gt;
+  id &lt;span class=&quot;hljs-string&quot;&gt;'com.moowork.node'&lt;/span&gt; version &lt;span class=&quot;hljs-string&quot;&gt;'1.2.0'&lt;/span&gt;
+}
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  compile &lt;span class=&quot;hljs-string&quot;&gt;&quot;io.vertx:vertx-web&quot;&lt;/span&gt;
+}
+
+vertx {
+  mainVerticle = &lt;span class=&quot;hljs-string&quot;&gt;&quot;sample.MainVerticle&quot;&lt;/span&gt;
+  watch = [&lt;span class=&quot;hljs-string&quot;&gt;&quot;src/**/*&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;build.gradle&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;yarn.lock&quot;&lt;/span&gt;]
+  onRedeploy = [&lt;span class=&quot;hljs-string&quot;&gt;&quot;classes&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;webpack&quot;&lt;/span&gt;]
+}
+
+task webpack(&lt;span class=&quot;hljs-string&quot;&gt;type:&lt;/span&gt; Exec) {
+  inputs.file(&lt;span class=&quot;hljs-string&quot;&gt;&quot;$projectDir/yarn.lock&quot;&lt;/span&gt;)
+  inputs.file(&lt;span class=&quot;hljs-string&quot;&gt;&quot;$projectDir/webpack.config.js&quot;&lt;/span&gt;)
+  inputs.dir(&lt;span class=&quot;hljs-string&quot;&gt;&quot;$projectDir/src/main/webapp&quot;&lt;/span&gt;)
+  outputs.dir(&lt;span class=&quot;hljs-string&quot;&gt;&quot;$buildDir/resources/main/webroot&quot;&lt;/span&gt;)
+  commandLine &lt;span class=&quot;hljs-string&quot;&gt;&quot;$projectDir/node_modules/.bin/webpack&quot;&lt;/span&gt;
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This custom build exposes a &lt;code&gt;webpack&lt;/code&gt; task that invokes WebPack, with proper file tracking so that Gradle knows when the task is up-to-date or not.&lt;/p&gt;
+&lt;p&gt;The Node plugin adds many tasks, and integrates fine with &lt;code&gt;npm&lt;/code&gt; or &lt;code&gt;yarn&lt;/code&gt;, so fetching all NPM dependencies is done by calling &lt;code&gt;./gradlew yarn&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;vertxRun&lt;/code&gt; task now redeploys on modifications to files in &lt;code&gt;src/&lt;/code&gt; (and sub-folders), &lt;code&gt;build.gradle&lt;/code&gt; and &lt;code&gt;yarn.lock&lt;/code&gt;, calling both the &lt;code&gt;classes&lt;/code&gt; and &lt;code&gt;webpack&lt;/code&gt; tasks:&lt;/p&gt;
+
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;The Vert.x Gradle plugin provides lots of defaults to configure a Gradle project for Vert.x applications, producing &lt;em&gt;fat Jars&lt;/em&gt; and offering a running task with automatic redeployment.
+The plugin also integrates well with other plugins and external tools for which a Gradle task is available.&lt;/p&gt;
+&lt;p&gt;The project is still in its early stages and we are looking forward to hearing from you!&lt;/p&gt;
+&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jponge/vertx-gradle-plugin&quot;&gt;The project on GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://plugins.gradle.org/plugin/io.vertx.vertx-plugin&quot;&gt;The plugin on the Gradle plugins portal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/article&gt;</description>
+	<pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>EclipseCon Europe 2017: The OSGi IoT Demo updated and extended for 2017</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/3139 at https://www.eclipsecon.org/europe2017</guid>
+	<link>https://www.eclipsecon.org/europe2017/news/osgi-iot-demo-updated-and-extended-2017</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h4&gt;
+	by Mike Francis&lt;/h4&gt;
+&lt;p&gt;The OSGi IoT Demo for the OSGi Community Event and EclipseCon 2017 has been updated and extended to deliver another interesting and informative showcase of OSGi in action in IoT. Taking the foundations from the last three years of demos we will be using products from multiple vendors, open source projects and Raspberry PI computers to operate and control LEGO® trains running around a track. For 2017, we add a new and exciting dimension: a robot that will interact with the trains.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/osgi-iot-demo-updated-and-extended-2017&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/OSGiDemo2017RobotSq.png?itok=m_0Bru_P&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Wed, 27 Sep 2017 11:19:11 +0000</pubDate>
+</item>
+<item>
+	<title>Webtools News: WTP 3.9.1 Released!</title>
+	<guid isPermaLink="false">http://www.eclipse.org/webtools/news.php#permalink178</guid>
+	<link>http://eclipse.org/webtools/releases/3.9.1</link>
+	<description>&lt;div&gt;
+      The Web Tools Platform's 3.9.1 Release is now available!  &lt;a href=&quot;https://wiki.eclipse.org/WTP_FAQ#How_do_I_install_WTP.3F&quot;&gt;Installation&lt;/a&gt; and update can be performed using the Oxygen Update Site at
+      &lt;a href=&quot;http://download.eclipse.org/releases/oxygen/&quot;&gt;http://download.eclipse.org/releases/oxygen/&lt;/a&gt;.  Release 3.9.1 &lt;a href=&quot;https://www.eclipse.org/webtools/releases/3.9.1/&quot;&gt;fixes&lt;/a&gt; issues that occur in prior releases or have been reported since 3.9's release.
+      WTP 3.9.1 is featured in the Oxygen.1
+          &lt;a href=&quot;https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen1&quot;&gt;Eclipse IDE for Java EE Developers&lt;/a&gt;, with selected portions also included in &lt;a href=&quot;http://www.eclipse.org/downloads/compare.php&quot;&gt;other packages&lt;/a&gt;.  Adopters can download &lt;a href=&quot;http://download.eclipse.org/webtools/downloads/&quot;&gt;the build itself&lt;/a&gt; directly.
+      &lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://www.eclipse.org/webtools/news.php#permalink178&quot;&gt;More news&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Wed, 27 Sep 2017 10:01:00 +0000</pubDate>
+</item>
+<item>
 	<title>Eclipse Announcements: Eclipse IDE Now Supports Java 9</title>
 	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/UJKoa-MInJk/</guid>
 	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/UJKoa-MInJk/</link>
 	<description>Java 9 has been released into the world and support to make your Eclipse IDE ready to build, run, and debug Java 9 applications is available from the Eclipse Marketplace.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/UJKoa-MInJk&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 26 Sep 2017 19:07:22 +0000</pubDate>
+	<pubDate>Tue, 26 Sep 2017 19:30:00 +0000</pubDate>
 </item>
 <item>
 	<title>Wayne Beaton: Running Eclipse IDE on Java 9</title>
@@ -46,6 +282,13 @@
 	<pubDate>Mon, 25 Sep 2017 19:11:19 +0000</pubDate>
 </item>
 <item>
+	<title>Roxanne Joncas: “Things” Update — Fall</title>
+	<guid isPermaLink="false">https://medium.com/p/d2a9f801037f</guid>
+	<link>https://medium.com/@roxanne.iot/things-update-fall-d2a9f801037f?source=rss-82f8afd3e513------2</link>
+	<description>&lt;p&gt;Hello again! It’s been a while. Summer is always a unique time in the office and even thought I had good intentions, I neglected to post here. But, I am writing today with exciting news. I promise the wait will have been worth it.&lt;/p&gt;&lt;p&gt;Keep reading to find out more about:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Open IoT Challenge 4.0&lt;/li&gt;&lt;li&gt;New Eclipse IoT Newsletter&lt;/li&gt;&lt;li&gt;Eclipse IoT Day @ ThingMonk Recordings&lt;/li&gt;&lt;li&gt;All Things IoT @ EclipseCon Europe&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;&lt;strong&gt;Open IoT Challenge 4.0&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;I am pleased to say that we launched the fourth &lt;a href=&quot;http://iot.eclipse.org/open-iot-challenge/&quot;&gt;Open IoT Challenge&lt;/a&gt; today! We are very excited about this one because &lt;a href=&quot;https://iot.eclipse.org/open-iot-challenge/third-edition/&quot;&gt;last year’&lt;/a&gt;s was such a great success. I have a feeling that this year will be even more awesome.&lt;/p&gt;&lt;figure&gt;&lt;a href=&quot;https://iot.eclipse.org/open-iot-challenge/&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*LkqfReZ6ws7tdUBXb0ULaA.png&quot; /&gt;&lt;/a&gt;Open IoT Challenge 4.0&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;What is the Open IoT Challenge?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;It’s an annual challenge to encourage IoT enthusiasts and developers to build innovative IoT solutions using open standards and open source technology.&lt;/p&gt;&lt;p&gt;The Challenge finally gives you the chance to build the open IoT solution you’ve been dreaming of. We all have these personal plans and awesome ideas, but never seem to find the time to actually work on them. Initiatives like the Challenge give you the opportunity and a set timeframe to commit to.&lt;/p&gt;&lt;p&gt;Make sure you work hard on your proposal; the 10 best proposals will receive $150 to purchase hardware to make their idea come to life. Don’t be discouraged — even if you don’t make the Top 10, you can still win the Challenge. Everyone who submits a proposal is in the running!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;New to the Challenge this year&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;To make it even more interesting, we encourage submitters to make a video or write a blog post explaining why their solution should be in the Top 10. This is optional, but thinking about your proposal thoroughly and writing it down will help you refine your vision.&lt;/p&gt;&lt;p&gt;What are you waiting for — get that proposal ready!&lt;/p&gt;&lt;p&gt;Details: &lt;a href=&quot;http://iot.eclipse.org/open-iot-challenge/&quot;&gt;http://iot.eclipse.org/open-iot-challenge/&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;Eclipse IoT Newsletter&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;We are working on the new Eclipse IoT Newsletter. The first issue will be published at the beginning of October and a new one will be published every quarter. This means that I will now be the editor for two newsletters, this new one and the &lt;a href=&quot;https://www.eclipse.org/community/eclipse_newsletter/&quot;&gt;Eclipse Newsletter&lt;/a&gt;!&lt;/p&gt;&lt;p&gt;We’ve featured Eclipse IoT articles in the Eclipse Newsletter in the past (&lt;a href=&quot;https://www.eclipse.org/community/eclipse_newsletter/2017/march/&quot;&gt;March 2017 issue&lt;/a&gt;), but thought there was enough content for it to merit it’s own newsletter.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://eepurl.com/cYn4-n&quot;&gt;Subscribe here&lt;/a&gt; to get it delivered to your inbox.&lt;/p&gt;&lt;figure&gt;&lt;a href=&quot;http://eepurl.com/cYn4-n&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*H_4ncyMJHC3S3TZq8saNOA.png&quot; /&gt;&lt;/a&gt;Subscribe to the Eclipse IoT Newsletter&lt;/figure&gt;&lt;h3&gt;&lt;strong&gt;Eclipse IoT Day @ ThingMonk Videos&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;We were in London again this September for the Eclipse IoT Day @ ThingMonk. It was an awesome event and we hope you could be there to witness it live. If you weren’t there, you can watch the &lt;a href=&quot;https://www.youtube.com/watch?v=CJX-x24NVqs&amp;amp;list=PLy7t4z5SYNaThBSbxvLuhnXIl975hbM63&quot;&gt;talk recordings here&lt;/a&gt;.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*uunF1cbHFRhR6tCBraccow.png&quot; /&gt;&lt;/figure&gt;&lt;h3&gt;&lt;strong&gt;All Things IoT @ EclipseCon Europe&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/&quot;&gt;EclipseCon Europe&lt;/a&gt; (ECE) has been around for more than a decade. Since 2015, we’ve been organizing co-located Eclipse IoT Days with EclipseCon in Ludwigsburg. This year, there are so many great IoT events and activities happening at and around ECE, that we’ve decided to map it all out for you!&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.eclipsecon.org/europe2017/iot&quot;&gt;All Things IoT @ ECE&lt;/a&gt; page to get the most IoT out of your time at EclipseCon Europe, including:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Smart Home Day&lt;/li&gt;&lt;li&gt;Eclipse IoT Day&lt;/li&gt;&lt;li&gt;Eclipse IoT Working Group Meeting&lt;/li&gt;&lt;li&gt;and more!&lt;/li&gt;&lt;/ul&gt;&lt;figure&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/iot&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*ULpJoPyX-dexxF9QMOGVNA.png&quot; /&gt;&lt;/a&gt;All Things IoT @ ECE&lt;/figure&gt;&lt;p&gt;I hope to see you Oct 22–26 at all these IoT events in Ludwigsburg! Message me on Twitter &lt;a href=&quot;http://twitter.com/roxannejoncas&quot;&gt;@roxannejoncas&lt;/a&gt; if you’re attending. :)&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=d2a9f801037f&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 25 Sep 2017 15:13:52 +0000</pubDate>
+</item>
+<item>
 	<title>Ian Skerrett: All Things IoT at EclipseCon Europe</title>
 	<guid isPermaLink="false">http://ianskerrett.wordpress.com/?p=4246</guid>
 	<link>http://feedproxy.google.com/~r/IanSkerrett/~3/zrbwhXRm5uo/</link>
@@ -67,7 +310,7 @@
 	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/p9IrpVZZaxI/20170925criticalbug.php</guid>
 	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/p9IrpVZZaxI/20170925criticalbug.php</link>
 	<description>When Eclipse is launched on macOS 10.13 and user's primary language is not set to English, all the menu items in the main menubar are disabled. However, Context menus are not disabled&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/p9IrpVZZaxI&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Mon, 25 Sep 2017 12:52:02 +0000</pubDate>
+	<pubDate>Mon, 25 Sep 2017 13:30:00 +0000</pubDate>
 </item>
 <item>
 	<title>Paolo Patierno: Eclipse Day Milan 2017 : speaking about Eclipse Hono !</title>
@@ -98,7 +341,7 @@
 	<description>&lt;p&gt;Java 9 has been released into the world and &lt;a href=&quot;https://marketplace.eclipse.org/content/java-9-support-oxygen&quot;&gt;support to make your Eclipse IDE&lt;/a&gt; ready to build, run, and debug Java 9 applications is available from the &lt;a href=&quot;https://marketplace.eclipse.org&quot;&gt;Eclipse Marketplace&lt;/a&gt;. You can install this either from within the Marketplace Client in the Eclipse IDE itself (Help &amp;gt; Eclipse Marketplace) or by dragging and dropping from the website.&lt;/p&gt;
 &lt;p&gt;Or, just drag and drop this install button onto your running Eclipse.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&quot;drag&quot; href=&quot;http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=2393593&quot; title=&quot;Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client&quot;&gt;&lt;img alt=&quot;Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/all/themes/solstice/public/images/marketplace/btn-install.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;While you’re at it, you can &lt;a href=&quot;https://marketplace.eclipse.org/content/junit-5-support-oxygen&quot;&gt;install JUnit 5 support&lt;/a&gt; as well!&lt;/p&gt;
+&lt;p&gt;Installing the Java 9 support will also &lt;a href=&quot;https://marketplace.eclipse.org/content/junit-5-support-oxygen&quot;&gt;add the JUnit 5 support&lt;/a&gt; as well!&lt;/p&gt;
 &lt;p&gt;The Java 9 support includes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;the ability to add JRE and JDK 9 as installed JRE;&lt;/li&gt;
@@ -335,215 +578,6 @@
 &lt;li&gt;microbit.org/code/&lt;/li&gt;
 &lt;/ul&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/kichwacoders.wordpress.com/3018/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/kichwacoders.wordpress.com/3018/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=kichwacoders.com&amp;amp;blog=68353182&amp;amp;post=3018&amp;amp;subd=kichwacoders&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Tue, 19 Sep 2017 16:07:44 +0000</pubDate>
-</item>
-<item>
-	<title>Melanie Bats: Zero to CTO</title>
-	<guid isPermaLink="true">http://melb.enix.org/2017/09/19/zero-to-cto/</guid>
-	<link>http://melb.enix.org/2017/09/19/zero-to-cto/</link>
-	<description>&lt;p&gt;&lt;img alt=&quot;Hercules&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/Hercules-small.png&quot; title=&quot;Hercules&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Disclaimer: First, you should know that I am a girl born in the 80’s and so I grew up watching (and watching and re-watching…) Disney’s movies, and I am still used to watch them when new ones are released. So I am sorry for you: no doubt, at the end of this article you will have many annoying songs running in your head. 
-But all those girls made what I am today and it is only justice to them to ear once more time what they have to say ;)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;Ariel&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/Ariel-small.png?raw=true&quot; title=&quot;Ariel&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Seven years ago I joined the &lt;a href=&quot;https://www.obeo.fr/&quot;&gt;Obeo&lt;/a&gt; company. At that time, it was a small frenchies’ company making open source modeling tools. I was a free software activist but at that point even though I was using lots of free software, I never had the bravery to contribute by my own on my free time. When I was thinking about Obeo, I just wanted to be &lt;a href=&quot;https://youtu.be/SXKlJuO07eM&quot;&gt;part of that world&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;Elsa&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/Elsa-small.jpg&quot; title=&quot;Elsa&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;At some point as my technical skills could fit their needs, I decided to &lt;a href=&quot;https://youtu.be/L0MK7qz13bU&quot;&gt;let it go&lt;/a&gt; and send them my resume.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;Jasmine&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/Jasmine-small.jpeg&quot; title=&quot;Jasmine&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;And know what? They recruited me! It was both amazing and scary. It was like a dazzling place, a &lt;a href=&quot;https://www.youtube.com/watch?v=-kl4hJ4j48s&quot;&gt;whole new world&lt;/a&gt; to discover.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;Moana&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/Moana-small.png&quot; title=&quot;Moana&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Year after year, I got the chance to work and learn from the talented Obeo’s experts about Eclipse &amp;amp; modeling stuff. They shared their high technical skills &amp;amp; knowledge with me and I loved this atmosphere of constant research of improvements and innovations. I learned so much! 
-Working at Obeo opened me the doors of the open source community through the Eclipse community. I had the opportunity to participate to many conferences, giving talks and sharing my knowledge in turn. I could not say &lt;a href=&quot;https://youtu.be/cPAbx5kgCJo&quot;&gt;how far I would go&lt;/a&gt; but I was on the open source community road…&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;Rapunzel&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/Rapunzel-small.jpg&quot; title=&quot;Rapunzel&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://youtu.be/wbVlGESh9Mc&quot;&gt;I’ve got a dream&lt;/a&gt;… Be part of the open source world! Day after day it became true. First, two years ago I became committer on the Eclipse &lt;a href=&quot;https://eclipse.org/sirius/&quot;&gt;Sirius&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://eclipse.org/eef/&quot;&gt;EEF&lt;/a&gt; projects, and this year, since one month, I am the &lt;a href=&quot;https://wiki.eclipse.org/Planning_Council&quot;&gt;Eclipse Planning Council&lt;/a&gt; chair.
-I am really proud of working on free software and particularly on the Sirius technology. I feel even happier when this framework is used to create other impressive open source tools such as &lt;a href=&quot;https://www.polarsys.org/capella/&quot;&gt;Capella&lt;/a&gt;, a graphical modeler for Model Based System Engineering.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;Mulan&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/Mulan-small.jpg&quot; title=&quot;Mulan&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A few months ago, Obeo’s management announced me that we will open a new subsidiary in Vancouver, Canada! This was an awesome news. Our current CEO &lt;a href=&quot;https://twitter.com/slacrampe&quot;&gt;Stéphane Lacrampe&lt;/a&gt; would move overseas to manage the new entity. This will allow us to be physically present on the new continent, making our international expansion easier and faster. &lt;a href=&quot;https://twitter.com/bruncedric&quot;&gt;Cédric Brun&lt;/a&gt; our CTO will replace Stéphane as CEO.
-And they offered me to become the new Obeo’s CTO. I am at the same time proud and really excited by the many challenges this new position brings! I will do my best!&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;Marry Poppins&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/MarryPoppins-small.png&quot; title=&quot;Marry Poppins&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;So being Obeo’s CTO is my new game from now. This means for me lots of fun ahead, this is my new spoonful of sugar!&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt;“In every job that must be done &lt;br /&gt;
-There is an element of fun &lt;br /&gt;
-You find the fun and snap! &lt;br /&gt;
-The job’s a game &lt;br /&gt;
-And every task you undertake &lt;br /&gt;
-Becomes a piece of cake“ &lt;br /&gt;
-Mary Poppins &lt;br /&gt;&lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt;Thanks open source community, Eclipse Foundation and Obeo for giving me this opportunity!&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;Go west&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/obeo_north_america_en.png&quot; title=&quot;Go west&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Have a look also at &lt;a href=&quot;http://cedric.brun.io/obeo/north-america-here-we-come/&quot;&gt;Cédric’s blog post&lt;/a&gt; and &lt;a href=&quot;https://blog.obeo.fr/en/post/obeo-goes-west&quot;&gt;Obeo’s summary&lt;/a&gt;.&lt;/p&gt;</description>
-	<pubDate>Tue, 19 Sep 2017 12:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Cedric Brun: North America, here we come!</title>
-	<guid isPermaLink="false">http://cedric.brun.io/obeo/north-america-here-we-come</guid>
-	<link>http://cedric.brun.io/obeo/north-america-here-we-come/</link>
-	<description>&lt;p&gt;Industries are relying either on ad hoc or rigid tools for systems engineering. Either the tool is built “in-house” and grow organically or it is bought to one of the big software vendors and then the company have to adapt its practices and teams to use it. Such software vendors might use every opportunity to lock in their users, in both cases the tool longevity is quite uncertain.&lt;/p&gt;
-
-&lt;p&gt;In the last 11 years, Obeo went from a 3-to-50 persons company and from an unknown organization to one of the largest contributor to the Eclipse Modeling technologies leading individual projects (Sirius, Acceleo, EMF Compare) up to worldwide awareness.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;a href=&quot;http://cedric.brun.io/images/blog/banner_obeo_team_v2.0.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/banner_obeo_team_v2.0-small.png&quot; /&gt;&lt;/a&gt;    
-    We Are Obeo!
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;We’ve been challenging this status quo since day one.&lt;/strong&gt; What if there could be a solution which would be adaptable yet built on strong methodological and technical foundations, open-source, available to all, and with an open governance.  A software that anybody can download and use without going through a registration, a tool built from the trenches, polished and tested under many environments, a project which future can be oriented by the organizations using it through their direct involvement?&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://cedric.brun.io/images/blog/acceleo2-modules.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/acceleo2-modules-small.png&quot; style=&quot;float: right;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Our first open-source software was Acceleo and aimed at empowering developers by helping them write code generators. For the 2.0 release in 2007 we managed to ship dozen of code generators built by contributors. From C# to Php or Python; the community provided off-the-shelf tools able to compete with the solutions on the market. In many ways this contributed to Obeo’s growth, which itself contributed to our capacity to contribute to Open-Source.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;I felt ecstatic at this success even though that was at a very humble scale.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://cedric.brun.io/images/blog/flow-designer.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/flow-designer-small.png&quot; style=&quot;float: right;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Fast forward 5 years later, Sirius: the outcome of our collaboration with Thales; is released as an open-source technology. Technology to swiftly build graphical design tools for any domain, tools which empower users. Now hundreds of graphical modelers are hosted on github, some of it experiments, others full fledged products.&lt;/p&gt;
-
-&lt;p&gt;I’m filled with curiosity regarding all these uses of Sirius, each domain can get so interesting I would love to get involved with every single one.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://cedric.brun.io/images/blog/capella-archi.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/capella-archi-small.png&quot; style=&quot;float: right;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Once Sirius was open-source, it then became possible for the systems engineering tool Thales had built for years to be publicly released and have a life outside of the organization. This tool is Capella and got pretty popular, especially in the last few months. It is the perfect instance of a tool which is built on strong foundations, ready to use yet adaptable.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;It has been built by Thales: a worldwide recognized leader in building the most challenging critical systems and rely on the “Arcadia” engineering method (ARCHITECTURE ANALYSIS &amp;amp; DESIGN INTEGRATED APPROACH). It is available to all and has an open governance through the Capella Industry Consortium.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;This gives me optimism as strong and open systems engineering tools might be closer than one would think.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;We always envisioned Obeo to be a worldwide company&lt;/strong&gt;. Open-source made us recognizable and we worked with many countries in Europe and North America. This also made us highly aware that being physically on the continent was important to reach the market there.&lt;/p&gt;
-
-&lt;p&gt;Engineering is of importance across the globe, but North America is for sure a central place in regard to aeronautics, space, transportation and industrial systems.&lt;/p&gt;
-
-&lt;p&gt;We are taking the next step toward a future built on top of open tools by opening a subsidiary in Vancouver, Canada, to develop the business around modeling technologies including Capella.  I’m incredibly excited by this prospect, we’ve been preparing this for quite a few months and I am thrilled to publicly share our plans.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;a href=&quot;http://cedric.brun.io/images/blog/obeo-go-west.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/obeo-go-west-small.png&quot; /&gt;&lt;/a&gt;    
-    Go West!
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/in/lacrampe/&quot;&gt;Stephane&lt;/a&gt; will open and manage the subsidiary in Vancouver.&lt;/strong&gt; He will move there with his family, most likely near the end of 2017 and start the activity there.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;I am stepping into the role of CEO which he had before.&lt;/strong&gt; He did such a great job in shaping Obeo as it is now that I can only be very humble in front of the task awaiting me, the fact that I’m tackling it with an amazing team gives me a lot of comfort.&lt;/p&gt;
-
-&lt;p&gt;As VP and sales director &lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/in/etiennejuliot/&quot;&gt;Etienne&lt;/a&gt; will also focus on international business and structure the development starting in Europe and Asia.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;That’s not all, &lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/in/m%C3%A9lanie-bats-bb9a192b/&quot;&gt;Mélanie&lt;/a&gt; is stepping into my shoes as CTO&lt;/strong&gt;, if you are in the Eclipse community I’m certain you met her and came to appreciate her work! In the last few months she has taken my responsibilities in Eclipse (and more as she even holds the position of chair of the planning council, congrats!). She is now also responsible for the R&amp;amp;D, products, roadmaps, the corresponding team at Obeo and the processes and practices within the organization.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;We’ll pursue our commitment in enabling open and efficient tools, you can join the ranks in many ways, by evaluating and trying tools such as Capella, by promoting open solutions, by pioneering such tools in your domain of expertise or even support us to start the activity in North America. &lt;strong&gt;You could get the benefit of innovative products transforming the way your team is drafting, designing and simulating, just like Thales did!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Obeo goes international and brings open modeling technologies and systems engineering tools in North America! With this evolution my mission changes and I face exciting challenges, I’ll undertake with the wonderful talents forming the company. I’m enthusiastic about the future we’ll contribute to building, a future filled with tools supporting many domains based on open technology!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Learn more about this news through &lt;a href=&quot;http://melb.enix.org/2017/09/19/zero-to-cto/&quot;&gt;Mélanie’s blog post&lt;/a&gt; and &lt;a href=&quot;https://blog.obeo.fr/en/post/obeo-goes-west&quot;&gt;Obeo’s summary&lt;/a&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;&lt;a href=&quot;http://cedric.brun.io/obeo/north-america-here-we-come/&quot;&gt;North America, here we come!&lt;/a&gt; was originally published by Cédric Brun at &lt;a href=&quot;http://cedric.brun.io&quot;&gt;&lt;s&gt;CTO&lt;/s&gt; CEO @ Obeo&amp;lt;/a&amp;gt; on September 19, 2017.&amp;lt;/p&amp;gt;&lt;/a&gt;&lt;/p&gt;</description>
-	<pubDate>Tue, 19 Sep 2017 00:00:00 +0000</pubDate>
-	<author>cedric.brun@obeo.fr (Cédric Brun)</author>
-</item>
-<item>
-	<title>EclipseCon Europe 2017: Why you and your manager should say yes! to EclipseCon Europe</title>
-	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/3130 at https://www.eclipsecon.org/europe2017</guid>
-	<link>https://www.eclipsecon.org/europe2017/news/why-you-and-your-manager-should-say-yes-eclipsecon-europe</link>
-	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;div&gt;
-	&lt;strong&gt;Five good reasons to bring the team to Ludwigsburg&lt;/strong&gt;&lt;/div&gt;
-&lt;p&gt;1. Learn from the experts.&lt;br /&gt;
-	2. Innovate with the community.&lt;br /&gt;
-	3. Spread the word about your technology.&lt;br /&gt;
-	4. Get answers to complex issues.&lt;br /&gt;
-	5. Extend your network.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/why-you-and-your-manager-should-say-yes-eclipsecon-europe&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/ece%202017%20130%20x%20130%20going.png?itok=xtxIddqr&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Mon, 18 Sep 2017 14:49:59 +0000</pubDate>
-</item>
-<item>
-	<title>InfoQ Eclipse feed: Oracle Chooses Eclipse Foundation as New Home for Java EE</title>
-	<guid isPermaLink="true">http://www.infoq.com/news/2017/09/JavaEEtoEclipse?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</guid>
-	<link>http://www.infoq.com/news/2017/09/JavaEEtoEclipse?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
-	<description>&lt;img src=&quot;http://www.infoq.com/styles/i/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Oracle has announced that they have chosen the Eclipse Foundation as the new custodians of  Java EE technologies. The move has been welcomed by Red Hat, IBM and others in the community. It is uncertain if after this move the platform can retain its current name of Java EE.&lt;/p&gt; &lt;i&gt;By Tim Hodkinson&lt;/i&gt;</description>
-	<pubDate>Sun, 17 Sep 2017 19:11:00 +0000</pubDate>
-</item>
-<item>
-	<title>EclipseCon Europe 2017: Jigsaw arriving - and now what?</title>
-	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/3127 at https://www.eclipsecon.org/europe2017</guid>
-	<link>https://www.eclipsecon.org/europe2017/news/jigsaw-arriving-and-now-what</link>
-	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h4&gt;
-by Stephan Hermann&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;Learn more about Stephan's talk &lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/jdt-embraces-java%E2%84%A2-9-insiders-view&quot;&gt;JDT embraces Java™ 9 - An insiders' view&lt;/a&gt; in this co-published blog.&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/jigsaw-arriving-and-now-what&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/Stephan.png?itok=m0df2Dtq&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Sat, 16 Sep 2017 13:11:54 +0000</pubDate>
-</item>
-<item>
-	<title>Neil Bartlett: March of the IDEs — IDE Agnostic OSGi Development</title>
-	<guid isPermaLink="false">http://njbartlett.github.com/2017/09/16/ide-agnostic-osgi</guid>
-	<link>http://njbartlett.name/2017/09/16/ide-agnostic-osgi.html</link>
-	<description>&lt;p&gt;For a long time Eclipse has been, in practice, the only widely used and supported IDE for developing OSGi applications. Both of the premier IDE plugins — namely &lt;a href=&quot;http://bndtools.org/&quot;&gt;Bndtools&lt;/a&gt; and the older &lt;a href=&quot;https://www.eclipse.org/pde/&quot;&gt;PDE&lt;/a&gt; — supported only Eclipse. While some tooling existed in IntelliJ and NetBeans it was nowhere near as comprehensive or usable.&lt;/p&gt;
-
-&lt;p&gt;This wasn’t much of a problem for me personally. I have been a fan of Eclipse since I first saw it in the early 2000s, and indeed the first IDE I ever used was VisualAge for Java, which later morphed into Eclipse. I’ve tried other IDEs but I always end up reverting to the familiar.&lt;/p&gt;
-
-&lt;p&gt;However IDE choice is very personal, and the devotion of some developers to their preferred IDE can make religious fanatics seem positively lukewarm. So if you met an IntelliJ fan and told her that she would need to switch to Eclipse in order develop for OSGi… well, it’s unsurprising that a common response was that OSGi could get stuffed.&lt;/p&gt;
-
-&lt;p&gt;So while I continue to use and support Bndtools in Eclipse, for the sake of OSGi adoption I have long wished for there to be a better development experience in the other popular IDEs. I’m happy to report that substantial progress has been made towards this goal. The latest version of bnd includes a suite of plugins for both Maven and Gradle that make development of OSGi applications practical irrespective of the IDE. Combined with some minimal IDE-specific tooling, such as that included in the latest IntelliJ builds, it is now a productive and even pleasurable activity.&lt;/p&gt;
-
-&lt;p&gt;On 23 October I will present a talk at the &lt;a href=&quot;http://germany.osgiusers.org/Main/UFG2017&quot;&gt;OSGi Users Forum Germany Tooling Workshop&lt;/a&gt; titled &lt;strong&gt;March of the IDEs — IDE Agnostic OSGi Development&lt;/strong&gt;. In my talk I will demonstrate the development of a single OSGi application using Eclipse, IntelliJ, Visual Studio Code and a variety of command-line tools. This will highlight the opportunities for developers of all creeds to collaborate on high-quality modular code.&lt;/p&gt;
-
-&lt;p&gt;The workshop takes place all day on 23 October and is located at the Forum am Schlosspark, Ludwigsburg, Germany. This is the same venue as &lt;a href=&quot;https://www.eclipsecon.org/europe2017/&quot;&gt;EclipseCon Europe and OSGi Community Event 2017&lt;/a&gt; but it is organised as a separate event. Participation is free and you do not need a ticket for EclipseCon but you do need to register with the OSGi User Forum Germany by emailing &lt;a href=&quot;mailto:germany-info@osgiusers.org&quot;&gt;germany-info@osgiusers.org&lt;/a&gt;. I hope to see you there!&lt;/p&gt;</description>
-	<pubDate>Sat, 16 Sep 2017 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>EclipseCon Europe 2017: Sponsor Testimonial: Milen Dyankov, Liferay</title>
-	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/3126 at https://www.eclipsecon.org/europe2017</guid>
-	<link>https://www.eclipsecon.org/europe2017/news/sponsor-testimonial-milen-dyankov-liferay</link>
-	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;As Strategic Members of the OSGi Alliance, Liferay is proud to sponsor the OSGi Community Event again and to be among the Eclipse community. ...Join us for three sessions given by Carlos Sierra, &quot;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/osgi-meets-lambdas&quot;&gt;OSGi Meets Lambdas&lt;/a&gt;&quot;, Milen Dyankov, &quot;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/fantastic-java-contracts-and-where-define-them&quot;&gt;Fantastic Java Contracts and Where To Define Them&lt;/a&gt;?&quot;, and Ray Augé, &quot;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/cdi-and-osgi-so-happy-together&quot;&gt;CDI and OSGi: So Happy Together&lt;/a&gt;!&quot;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/sponsor-testimonial-milen-dyankov-liferay&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/Liferay%20Leadership%20Award.GIF?itok=ReZ9mhtx&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Fri, 15 Sep 2017 01:23:10 +0000</pubDate>
-</item>
-<item>
-	<title>Donald Raab: Nine Features in Eclipse Collections 9.0</title>
-	<guid isPermaLink="false">https://medium.com/p/a2ca97dfdf74</guid>
-	<link>https://medium.com/@donraab/nine-features-in-eclipse-collections-9-0-a2ca97dfdf74?source=rss-df39b86e9f04------2</link>
-	<description>&lt;p&gt;CountBy, DistinctBy, Cartesian Product for primitive collections… and more.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*veYZCD9OZFA6yidetqbkjg.jpeg&quot; /&gt;&lt;/figure&gt;&lt;p&gt;In my &lt;a href=&quot;https://medium.com/@donraab/in-the-know-eclipse-collections-9-0-a828acad44a4&quot;&gt;previous blog post&lt;/a&gt;, I described the upcoming release of Eclipse Collections 9.0.&lt;/p&gt;&lt;p&gt;In this post, I will briefly highlight nine features with examples that will be included in the Eclipse Collections 9.0 release. Each example shows what you could do in Eclipse Collections 7.x — 8.x and how it was improved in &lt;a href=&quot;https://www.eclipse.org/collections/&quot;&gt;Eclipse Collections&lt;/a&gt; 9.0.&lt;/p&gt;&lt;h4&gt;1. CountBy&lt;/h4&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 7.x - 8.x&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;MutableBag&amp;lt;String&amp;gt; countsOld = &lt;br /&gt;        this.company.getCustomers()&lt;br /&gt;            .asLazy().collect(Customer::getCity).toBag();&lt;/pre&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 9.x&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;MutableBag&amp;lt;String&amp;gt; countsNew = &lt;br /&gt;        this.company.getCustomers()&lt;br /&gt;            .&lt;strong&gt;countBy&lt;/strong&gt;(Customer::getCity);&lt;/pre&gt;&lt;p&gt;It should be easier for developers to both discover and read &lt;em&gt;countBy&lt;/em&gt; versus the previous alternative.&lt;/p&gt;&lt;h4&gt;2. DistinctBy&lt;/h4&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 7.x - 8.x&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;MutableList&amp;lt;Customer&amp;gt; distinctOld =&lt;br /&gt;        this.company.getCustomers()&lt;br /&gt;             .distinct(&lt;br /&gt;                 HashingStrategies.&lt;em&gt;fromFunction&lt;/em&gt;(Customer::getCity));&lt;/pre&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 9.x&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;MutableList&amp;lt;Customer&amp;gt; distinctNew =&lt;br /&gt;        this.company.getCustomers()&lt;br /&gt;                .&lt;strong&gt;distinctBy&lt;/strong&gt;(Customer::getCity);&lt;/pre&gt;&lt;p&gt;DistinctBy uses distinct with a hashing strategy for its implementation.&lt;/p&gt;&lt;h4&gt;3. Primitive Collection Factories work with Primitive Java Streams&lt;/h4&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 7.x - 8.x&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;MutableIntList listOld = &lt;br /&gt;        IntStream.&lt;em&gt;rangeClosed&lt;/em&gt;(1, 100)&lt;br /&gt;                .collect(&lt;br /&gt;                        IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;::empty, &lt;br /&gt;                        MutableIntList::add, &lt;br /&gt;                        MutableIntList::withAll);&lt;/pre&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 9.x&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;MutableIntList listNew =&lt;br /&gt;        IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.withAll(&lt;br /&gt;                IntStream.&lt;em&gt;rangeClosed&lt;/em&gt;(1, 100));&lt;/pre&gt;&lt;p&gt;There are also &lt;em&gt;immutable&lt;/em&gt; factories that take IntStream, LongStream and DoubleStream. Both mutable and immutable factories that accept primitive Java Streams are available across primitive Lists, Sets, Bags, and Stacks for int, long and double. &lt;a href=&quot;https://medium.com/@donraab/symmetric-sympathy-2c59d4541d60&quot;&gt;Symmetric Sympathy&lt;/a&gt; strikes again.&lt;/p&gt;&lt;h4&gt;4. Factory classes can now create adapters&lt;/h4&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 7.x - 8.x&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;MutableList&amp;lt;Object&amp;gt; listAdapter = &lt;br /&gt;    ListAdapter.&lt;em&gt;adapt&lt;/em&gt;(new ArrayList&amp;lt;&amp;gt;());&lt;br /&gt;MutableSet&amp;lt;Object&amp;gt; setAdapter = &lt;br /&gt;    SetAdapter.&lt;em&gt;adapt&lt;/em&gt;(new ConcurrentSkipListSet&amp;lt;&amp;gt;());&lt;br /&gt;MutableMap&amp;lt;Object, Object&amp;gt; mapAdapter = &lt;br /&gt;    MapAdapter.&lt;em&gt;adapt&lt;/em&gt;(new LinkedHashMap&amp;lt;&amp;gt;());&lt;/pre&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 9.x&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;MutableList&amp;lt;Object&amp;gt; listAdapter = &lt;br /&gt;    Lists.&lt;strong&gt;&lt;em&gt;adapt&lt;/em&gt;&lt;/strong&gt;(new ArrayList&amp;lt;&amp;gt;());&lt;br /&gt;MutableSet&amp;lt;Object&amp;gt; setAdapter = &lt;br /&gt;    Sets.&lt;strong&gt;&lt;em&gt;adapt&lt;/em&gt;&lt;/strong&gt;(new ConcurrentSkipListSet&amp;lt;&amp;gt;());&lt;br /&gt;MutableMap&amp;lt;Object, Object&amp;gt; mapAdapter = &lt;br /&gt;    Maps.&lt;strong&gt;&lt;em&gt;adapt&lt;/em&gt;&lt;/strong&gt;(new LinkedHashMap&amp;lt;&amp;gt;());&lt;/pre&gt;&lt;p&gt;Many developers do not realize there are adapter classes for existing JDK types in Eclipse Collections. Adding this short-cut on the factory classes should make it easier to discover.&lt;/p&gt;&lt;h4&gt;5. Streams available directly on Immutable Collections&lt;/h4&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 7.x - 8.x&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;boolean result = &lt;br /&gt;    Lists.&lt;strong&gt;&lt;em&gt;immutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3)&lt;br /&gt;        .castToList()&lt;br /&gt;        .stream()&lt;br /&gt;        .anyMatch(i -&amp;gt; i % 2 == 0);&lt;/pre&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 9.x&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;boolean result = &lt;br /&gt;    Lists.&lt;strong&gt;&lt;em&gt;immutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3)&lt;br /&gt;        .&lt;strong&gt;stream&lt;/strong&gt;()&lt;br /&gt;        .anyMatch(i -&amp;gt; i % 2 == 0);&lt;/pre&gt;&lt;p&gt;This was a requested feature. It is not obvious that you can call castToList and then call stream on an ImmutableCollection. In this &lt;a href=&quot;https://medium.com/@donraab/as-a-matter-of-factory-part-2-immutable-8cb72ff897ee&quot;&gt;previous post&lt;/a&gt; I described the design decision to not have ImmutableCollection extend Collection. This is why it was necessary to add stream explicitly.&lt;/p&gt;&lt;h4&gt;6. FlatCollect on primitive lazy iterables&lt;/h4&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 8.x&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;IntList listOne = IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3);&lt;br /&gt;IntList listTwo = IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(4, 5, 6);&lt;br /&gt;MutableList&amp;lt;IntIntPair&amp;gt; pairs = listOne&lt;br /&gt;    .flatCollect(i -&amp;gt; &lt;br /&gt;        &lt;em&gt;listTwo&lt;/em&gt;.collect(j -&amp;gt; &lt;br /&gt;            PrimitiveTuples.&lt;em&gt;pair&lt;/em&gt;(&lt;em&gt;i&lt;/em&gt;, j)),&lt;br /&gt;            Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.empty());&lt;/pre&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 9.x&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;IntList listOne = IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3);&lt;br /&gt;IntList listTwo = IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(4, 5, 6);&lt;br /&gt;LazyIterable&amp;lt;IntIntPair&amp;gt; pairs =&lt;br /&gt;    listOne.asLazy()&lt;br /&gt;        .&lt;strong&gt;flatCollect&lt;/strong&gt;(i -&amp;gt; &lt;em&gt;listTwo&lt;/em&gt;.asLazy()&lt;br /&gt;            .collect(j -&amp;gt; PrimitiveTuples.&lt;em&gt;pair&lt;/em&gt;(&lt;em&gt;i&lt;/em&gt;, j)));&lt;/pre&gt;&lt;p&gt;Previously, you could only flatCollect directly into a mutable primitive container. This method was an important building block for primitive cartesian product so it could be implemented lazily.&lt;/p&gt;&lt;h4&gt;7. Streams available for values on all Object Valued Maps&lt;/h4&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 7.x - 8.x - Object Maps&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;boolean result = &lt;br /&gt;    Maps.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 1, 2, 2, 3, 3)&lt;br /&gt;        .values()&lt;br /&gt;        .stream()&lt;br /&gt;        .anyMatch(i -&amp;gt; i % 2 == 0);&lt;/pre&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 9.x - Object Maps&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;boolean result =&lt;br /&gt;    Maps.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 1, 2, 2, 3, 3)&lt;br /&gt;        .stream()&lt;br /&gt;        .anyMatch(i -&amp;gt; i % 2 == 0);&lt;/pre&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 7.x - 8.x - PrimitiveObject Maps&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;boolean primitiveResult =&lt;br /&gt;    IntObjectMaps.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.&amp;lt;Integer&amp;gt;empty()&lt;br /&gt;        .withKeyValue(1, 1)&lt;br /&gt;        .withKeyValue(2, 2)&lt;br /&gt;        .withKeyValue(3, 3)&lt;br /&gt;        .values()&lt;br /&gt;        .stream()&lt;br /&gt;        .anyMatch(i -&amp;gt; i % 2 == 0);&lt;/pre&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 9.x - PrimitiveObject Maps&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;boolean primitiveResult2 =&lt;br /&gt;    IntObjectMaps.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.&amp;lt;Integer&amp;gt;empty()&lt;br /&gt;        .withKeyValue(1, 1)&lt;br /&gt;        .withKeyValue(2, 2)&lt;br /&gt;        .withKeyValue(3, 3)&lt;br /&gt;        .stream()&lt;br /&gt;        .anyMatch(i -&amp;gt; i % 2 == 0);&lt;/pre&gt;&lt;p&gt;All object valued maps implement RichIterable&amp;lt;V&amp;gt;. This was a conscious design decision made in the early days of Eclipse Collections. Unfortunately, the stream method is defined on Collection which Maps in Eclipse Collections do not extend. So the stream method had to be added explicitly.&lt;/p&gt;&lt;h4&gt;8. AverageIfEmpty and MedianIfEmpty on primitive iterables&lt;/h4&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 7.x - 8.x&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;double average = IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.empty().average();&lt;br /&gt;// throws java.lang.ArithmeticException&lt;br /&gt;double median = IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.empty().median();&lt;br /&gt;// throws java.lang.ArithmeticException&lt;/pre&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 9.x&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;double average = IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.empty().averageIfEmpty(0.0);&lt;br /&gt;double median = IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.empty().medianIfEmpty(0.0);&lt;/pre&gt;&lt;p&gt;Eclipse Collections had &lt;em&gt;minIfEmpty&lt;/em&gt; and &lt;em&gt;maxIfEmpty&lt;/em&gt; on primitive iterables but did not have the equivalent for &lt;em&gt;average&lt;/em&gt; and &lt;em&gt;median&lt;/em&gt;, which both throw on empty.&lt;/p&gt;&lt;h4&gt;9. Primitive Sets now have Cartesian Product&lt;/h4&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 7.x - 8.x&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;Set&amp;lt;Integer&amp;gt; a = Sets.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3);&lt;br /&gt;Set&amp;lt;Integer&amp;gt; b = Sets.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(4, 5, 6);&lt;br /&gt;LazyIterable&amp;lt;Pair&amp;lt;Integer, Integer&amp;gt;&amp;gt; pairs = &lt;br /&gt;    Sets.&lt;em&gt;cartesianProduct&lt;/em&gt;(a, b);&lt;/pre&gt;&lt;pre&gt;&lt;strong&gt;&lt;em&gt;// Eclipse Collections 9.x&lt;br /&gt;&lt;/em&gt;&lt;/strong&gt;IntSet a = IntSets.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3);&lt;br /&gt;IntSet b = IntSets.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(4, 5, 6);&lt;br /&gt;LazyIterable&amp;lt;IntIntPair&amp;gt; pairs = &lt;br /&gt;    IntSets.&lt;strong&gt;&lt;em&gt;cartesianProduct&lt;/em&gt;&lt;/strong&gt;(a, b);&lt;/pre&gt;&lt;p&gt;Eventually I hope we will have all of the methods available on Sets today on the equivalent primitive Sets classes. There are methods like difference, symmetricDifference, powerSet, etc. on the Sets class today. Cartesian Product was a good first step to providing better symmetry for primitive collections.&lt;/p&gt;&lt;p&gt;…and there is more. See the detailed draft release notes &lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/RELEASE_NOTE_DRAFT.md&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=a2ca97dfdf74&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 14 Sep 2017 20:46:00 +0000</pubDate>
 </item>
 
 </channel>

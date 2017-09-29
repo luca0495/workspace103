@@ -96,16 +96,17 @@ public class AppMain extends SL_JFrame  {
 					
 				System.out.println("GUI :> comando inviato dalla gui main");
 				
-					MessageBack back = me.Request(Commands.DBExist); // me == Client associato alla GUI
+					MessageBack back = me.Request(Commands.tableExistBook); // me == Client associato alla GUI
 					
-					
+					ChkDBandTab.tableExistBook();
 					
 				System.out.println("GUI :> risposta dal DB : "+back.getText());
 										
 					System.out.println(back.toString());
 					
-				ChkDBandTab.DBExist();
-				System.out.println("richiesta creazione db risposta : "+ ChkDBandTab.DBExist() +"");
+					// ciao Matte
+				    // ciao Matte1
+					// ciao Matte2
 					
 					//ChkDBandTab.tableExistBook();
 					
