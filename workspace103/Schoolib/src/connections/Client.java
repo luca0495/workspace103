@@ -56,8 +56,7 @@ public class Client implements Serializable, Runnable  {
 	public void run() {		
 		try {
 			Logica();
-		} catch (Exception e) {
-			
+		} catch (Exception e) {			
 			e.printStackTrace();
 		}	
 	}
@@ -72,7 +71,7 @@ public class Client implements Serializable, Runnable  {
 						
 					System.out.println("creato start windows");
 					StartWindow.addMsg("test");	
-					new Thread(x).start();						
+					new Thread(x).start();	//parte > Logica					
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -91,8 +90,7 @@ public class Client implements Serializable, Runnable  {
 										if (isStubok())  {	
 											try {
 											//	if ((mSg = srv.testConnectionSS().getText()).equals(new String ("SRV - Connessione OK"))){
-													
-												
+									
 													this.mSgBack = 	Request(Commands.ConnTEST);
 													
 													//TODO ELIMINA CONTROLLO ERRORE
@@ -141,7 +139,7 @@ public class Client implements Serializable, Runnable  {
 //------------------------------------------------------------------------
 		public MessageBack Request(Commands cmd)throws IOException{			
 			MessageBack Mb = new MessageBack();				
-			System.out.println("CLI:> Request ricevuto ");
+			System.out.println("CLI:> Request ricevuto :> "+cmd.toString());
 			if (!stubok){
 				Mb.setText(mSg = "CLI:>  nessuna connessione attiva , riprovare ");
 				getActW().addMsg(new String ("Connection Test result"+mSg));

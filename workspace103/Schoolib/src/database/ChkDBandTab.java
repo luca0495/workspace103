@@ -68,11 +68,6 @@ public class ChkDBandTab {
 			System.out.println("SYS :> class not found");
 		}
 		return mb;
-		
-			
-		
-		// ciao prova
-		// bella luca sei un fottuto genio 
 		 * 
 		}
 	*/
@@ -86,6 +81,7 @@ public class ChkDBandTab {
 	 ResultSet resultSet;
 	 Statement statement = connection.createStatement();
 	 resultSet = metadata.getTables(null, null, "libro", null);
+	 
 	 if(!resultSet.next()){
 	 
 		 statement.executeUpdate
@@ -97,13 +93,11 @@ public class ChkDBandTab {
                   +"titolo varchar(35) not null,"
                   +"primary key(codice,nome_autore,cognome_autore,categoria,titolo))")  ;
 		 
-		 	System.out.println("ChkDBandTable :> table CREATED !");
-		 
+		 	System.out.println("ChkDBandTable :> table Book CREATED !");		 
 	 }
 	 else
 	 {
-		    System.out.println("ChkDBandTable :> exists table !");
-		    
+		    System.out.println("ChkDBandTable :> exists table Book !");
 		}
 	    resultSet.close();
 		DBmanager.closeConnection();
@@ -129,10 +123,12 @@ public class ChkDBandTab {
                   +"ntel varchar(10) not null,"
                   +"primary key (id),"
                   +"unique (email))")  ;
+		 
+		 System.out.println("ChkDBandTable :> table Person CREATED !");
 	 }
 	 else
 	 {
-		    System.out.println("exists table");
+		 System.out.println("ChkDBandTable :> exists table Person !");
 		    
 		}
 	    resultSet.close();
@@ -160,10 +156,13 @@ public class ChkDBandTab {
 	                  +"lista_prenotazioni integer[] not null,"
 	                  +"foreign key (id) references UTENTE(id) ON UPDATE CASCADE ON DELETE CASCADE,"
 	                  +"foreign key ( codice, nome_autore, cognome_autore, categoria, titolo)references LIBRO ON UPDATE CASCADE ON DELETE CASCADE)")  ;
+			 
+			 System.out.println("ChkDBandTable :> table Prestiti CREATED !");
+		 
 		 }
 		 else
 		 {
-			    System.out.println("exists table");
+			 System.out.println("ChkDBandTable :> exists table Prestiti !");
 			    
 			}
 		    resultSet.close();

@@ -25,7 +25,6 @@ import connections.Message;
 import connections.MessageBack;
 import database.ChkDBandTab;
 
-
 public class AppMain extends SL_JFrame  {
 	
 	private Client  		me ;
@@ -46,12 +45,9 @@ public class AppMain extends SL_JFrame  {
 		initialize();		
 		super.SL_Type = AppType.AppMain;	
 		super.SL_Client		=null;
-		addMsg("inizializzazione completata");
-		
-		
+		addMsg("inizializzazione completata");	
 	}
-	
-	
+
 	public AppMain(Client x) {
 		//me = x;
 		//me.setActW(this);
@@ -90,49 +86,29 @@ public class AppMain extends SL_JFrame  {
 		btnNewButton.addActionListener(new ActionListener() {
 			
 			public void actionPerformed(ActionEvent arg0) {
-				
-				
+		
 				try {
 					
-				System.out.println("GUI :> comando inviato dalla gui main");
-				
-					MessageBack back = me.Request(Commands.tableExistBook); // me == Client associato alla GUI
-					MessageBack back1 = me.Request(Commands.tableExistLoans);
-				    MessageBack back2 = me.Request(Commands.tableExistPerson);
-				    
-					ChkDBandTab.tableExistBook();
-					ChkDBandTab.tableExistLoans();
-					ChkDBandTab.tableExistPerson();
-					
-				System.out.println("GUI :> risposta dal DB : "+back.getText());
-				System.out.println("GUI :> risposta dal DB : "+back1.getText());
-				System.out.println("GUI :> risposta dal DB : "+back2.getText());
-										
-					System.out.println(back.toString());
-					System.out.println(back1.toString());
-					System.out.println(back2.toString());
-					
-					
-					// ciao Matte
-				    // ciao Matte1
-					// ciao Matte2
-					
+				System.out.println("GUI :> comando inviato dalla gui main");//test tabelle iniziale
+	
+				// book					
 					//ChkDBandTab.tableExistBook();
-					
-					
-					
+					MessageBack back = me.Request(Commands.tableExistBook); // me == Client associato alla GUI
+					System.out.println("GUI :> risposta dal DB : "+back.getText());					
+				// Person	
+					// ChkDBandTab.tableExistPerson();
+					MessageBack back2 = me.Request(Commands.tableExistPerson);
+					System.out.println("GUI :> risposta dal DB : "+back2.getText());	
+				//  Loans	
+					// ChkDBandTab.tableExistLoans();
+					MessageBack back1 = me.Request(Commands.tableExistLoans);    
+					System.out.println("GUI :> risposta dal DB : "+back1.getText());
+
+	
 				} catch (Exception e) {
 					
-					e.printStackTrace();
-					
-					
-				}
-				
-
-				
-				
-				
-				
+					e.printStackTrace();	
+				}	
 			}
 		});
 		

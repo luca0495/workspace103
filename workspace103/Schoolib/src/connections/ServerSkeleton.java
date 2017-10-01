@@ -41,27 +41,54 @@ public class ServerSkeleton implements IServer, Runnable {
 				
 				
 				case CHANGE:
-					System.out.println("Skeleton :> rx cmd :> MODIFICA");
+					System.out.println("Skeleton SWITCH Type:> rx cmd :> MODIFICA");
 					ostream.writeObject(modifica(myOper));
- 					ostream.flush();	
+ 					ostream.flush();
+ 					
 					break;		
 				
 				case READ:
-					System.out.println("Skeleton :> rx cmd :>  LETTURA");
+					System.out.println("Skeleton SWITCH Type:> rx cmd :>  LETTURA");
 					ostream.writeObject(visualizza(myOper));
- 					ostream.flush();	
+ 					ostream.flush();
+ 					
 					break;		
 					
 				case TEST:
-					// richiamato da crea dbtest della maingui
+					// richiamato da crea dbtest della main gui
 					
-					System.out.println("Skeleton :> rx cmd :>  TEST");
+					System.out.println("Skeleton SWITCH Type:> rx cmd :>  TEST");
 					ostream.writeObject(test(myOper));
- 					ostream.flush();	
-					break;	
-					
+ 					ostream.flush();
+ 					//------------------------------------------------------------------------------------------
+ 					
+ 					switch (myOper.getCommand()) {					
+					case tableExistBook:						
+						System.out.println("Skeleton :>  test Table Book exist ");					
+						//ostream.writeObject(ChkDBandTab.tableExistBook());	
+	 					//ostream.flush();										
+						break;						
+						// TODO per Mauro verifica
+                    case tableExistLoans:     					
+                    	System.out.println("Skeleton :>  test Table Loans exist ");	
+						//ostream.writeObject(ChkDBandTab.tableExistBook());	
+	 					//ostream.flush();									
+						break;						
+						// TODO per Mauro verifica
+                    case tableExistPerson:     							
+                    	System.out.println("Skeleton :>  test Table Person exist ");	
+						//ostream.writeObject(ChkDBandTab.tableExistBook());	
+		 				//ostream.flush();										
+						break;		
+ 					//------------------------------------------------------------------------------------------
+					default:
+						break;	
+ 					}
+				break;		
+						
+						
 				case CONNECTION:
-					System.out.println("Skeleton :> rx cmd :>  richiesta CONNECTIONs");
+					System.out.println("Skeleton SWITCH Type:> rx cmd :>  richiesta CONNECTIONs");
 					ostream.writeObject(connection(myOper));
  					ostream.flush();
 		 					if (myOper.getCommand()==Commands.ConnSTOP){
@@ -92,7 +119,7 @@ public class ServerSkeleton implements IServer, Runnable {
 								*/
 								
 								
-								case tableExistBook:
+									case tableExistBook:
 									
 									System.out.println("Skeleton :>  test DB exist ");
 									System.out.println("Skeleton :>  testaggio esistenza DB");
@@ -246,8 +273,7 @@ public class ServerSkeleton implements IServer, Runnable {
 		return null;
 	}
 	@Override
-	public MessageBack test(Message M) throws RemoteException {
-		
+	public MessageBack test(Message M) throws RemoteException {		
 		System.out.println("procede SKELETON");
 		return null;
 	}

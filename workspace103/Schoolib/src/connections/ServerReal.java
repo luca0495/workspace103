@@ -105,22 +105,51 @@ public class ServerReal extends ServerSkeleton {
 				System.out.println("REAL SERVER :> Gestisco RICHIESTA :> tableExistBook ");
 				
 					try {
-						database.ChkDBandTab.tableExistBook();
+						ChkDBandTab.tableExistBook();
 						getMeS().addMsg(mSg);
-						x.setText(new String ("SRV :> CHECK TABLE Exist :> OK"));
-						
-						
-						
+						x.setText(new String ("SRV :> CHECK TABLE book Exist :> OK"));	
 					} catch (SQLException e) {
 						getMeS().addMsg(mSg);
-						x.setText(new String ("SRV :> CHECK TABLE Exist :> NG..."));
-						
-						
-						System.out.println("problemi con controllo tabella");
+						x.setText(new String ("SRV :> CHECK TABLE book Exist :> NG..."));
+						System.out.println("problemi con controllo tabella Book");
 						e.printStackTrace();
 					}
 				
 				break;
+			// 	
+			case tableExistLoans:
+				System.out.println("REAL SERVER :> Gestisco RICHIESTA :> tableExistLoans ");
+				
+					try {
+						ChkDBandTab.tableExistLoans();
+						getMeS().addMsg(mSg);
+						x.setText(new String ("SRV :> CHECK TABLE Loans Exist :> OK"));	
+					} catch (SQLException e) {
+						getMeS().addMsg(mSg);
+						x.setText(new String ("SRV :> CHECK TABLE Loans Exist :> NG..."));
+						System.out.println("problemi con controllo tabella Loans");
+						e.printStackTrace();
+					}
+				
+				break;
+				//
+			case tableExistPerson:
+				System.out.println("REAL SERVER :> Gestisco RICHIESTA :> tableExistPerson ");
+				
+					try {
+						ChkDBandTab.tableExistPerson();
+						getMeS().addMsg(mSg);
+						x.setText(new String ("SRV :> CHECK TABLE Person Exist :> OK"));	
+					} catch (SQLException e) {
+						getMeS().addMsg(mSg);
+						x.setText(new String ("SRV :> CHECK TABLE person Exist :> NG..."));
+						System.out.println("problemi con controllo tabella Person");
+						e.printStackTrace();
+					}
+				
+				break;
+				
+				
 			default:
 				System.out.println("REAL SERVER :> Gestisco RICHIESTA ... ... ... ???? ");
 				break;
