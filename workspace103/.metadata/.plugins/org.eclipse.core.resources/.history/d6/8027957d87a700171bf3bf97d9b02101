@@ -91,6 +91,10 @@ public class AppReader extends SL_JFrame {
 		JPanel panelSelection = new JPanel();
 		frmSchoolib.getContentPane().add(panelSelection, "name_353237010061838");
 		panelSelection.setLayout(null);
+		
+		JPanel panelLog = new JPanel();
+		frmSchoolib.getContentPane().add(panelLog);
+		panelLog.setLayout(null);
 
 		
 		ImageIcon iconLogoT = new ImageIcon(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/images/Tick.png")));

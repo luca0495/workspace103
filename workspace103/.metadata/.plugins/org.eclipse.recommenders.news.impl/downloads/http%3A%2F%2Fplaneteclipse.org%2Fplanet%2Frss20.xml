@@ -8,6 +8,18 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Karsten Thoms: Resolve NullPointerException in ModelServiceImpl constructor</title>
+	<guid isPermaLink="false">http://kthoms.wordpress.com/?p=793</guid>
+	<link>https://kthoms.wordpress.com/2017/10/02/resolve-nullpointerexception-in-modelserviceimpl-constructor/</link>
+	<description>&lt;p&gt;I was creating a launch configuration for a plug-in test and wanted to have only a minimal set of plugins configured. Thus I am using PDE to add all required plug-ins of the test. The “Validate Plug-ins” action does not recognize any issue.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;screenshot 3.png&quot; class=&quot;alignnone size-full wp-image-798&quot; src=&quot;https://kthoms.files.wordpress.com/2017/10/screenshot-3.png?w=584&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;However, when starting the test it fails with a &lt;code&gt;NullPointerException&lt;/code&gt; in &lt;code&gt;ModelServiceImpl&lt;/code&gt;‘s constructor. The reason here is that no instance of &lt;code&gt;IEventBroker&lt;/code&gt; was retrieved from the application context. To enhance the situation I have opened &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=522051&quot;&gt;Bug#522051&lt;/a&gt; and giving this as an error message.&lt;/p&gt;
+&lt;p&gt;To solve this issue when running on Equinox, the bundle &lt;b&gt;&lt;code&gt;org.eclipse.equinox.event&lt;/code&gt;&lt;/b&gt; has to be added to the launch configuration. Also configure this bundle to start automatically at start level 2.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;screenshot 4.png&quot; class=&quot;alignnone size-full wp-image-814&quot; src=&quot;https://kthoms.files.wordpress.com/2017/10/screenshot-4.png?w=584&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I would have liked to give this hint already with the improved error message, but theoretically the &lt;code&gt;IEventBroker&lt;/code&gt; could be also provided by another OSGi implementation, so this additional hint was rejected with reason. I hope that this post will help you then further.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/kthoms.wordpress.com/793/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/kthoms.wordpress.com/793/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=kthoms.wordpress.com&amp;amp;blog=6829080&amp;amp;post=793&amp;amp;subd=kthoms&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 02 Oct 2017 09:19:17 +0000</pubDate>
+</item>
+<item>
 	<title>Mike Milinkovich: On Naming, or Why EE4J Does Not Suck</title>
 	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1387</guid>
 	<link>https://mmilinkov.wordpress.com/2017/09/30/on-naming/</link>
@@ -425,13 +437,6 @@ The plugin also integrates well with other plugins and external tools for which 
 &lt;p&gt;Checkout &lt;a href=&quot;https://wiki.eclipse.org/Java9/Examples&quot; rel=&quot;nofollow&quot;&gt;https://wiki.eclipse.org/Java9/Examples&lt;/a&gt; for some working examples of Java 9.&lt;/p&gt;
 &lt;p&gt;We’ll be including both Java 9 and JUnit 5 support in our package downloads and the installer soon!&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/waynebeaton.wordpress.com/5152/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/waynebeaton.wordpress.com/5152/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=waynebeaton.wordpress.com&amp;amp;blog=19425814&amp;amp;post=5152&amp;amp;subd=waynebeaton&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Fri, 22 Sep 2017 13:12:03 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Get the Early Price for EclipseCon Europe</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/LLbL-9E10GA/registration</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/LLbL-9E10GA/registration</link>
-	<description>Register now and save €100! Prices go up after October 5.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/LLbL-9E10GA&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 21 Sep 2017 13:30:00 +0000</pubDate>
 </item>
 
 </channel>
