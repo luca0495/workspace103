@@ -402,7 +402,7 @@ public class AppReader extends SL_JFrame {
 						e1.printStackTrace();
 				     }
 					 PopUp.infoBox(c, "Registrazione avvenuta con successo");
-					// timer per panel nuovo RIVEDERE Ciao!!!
+					// timer per panel nuovo RIVEDERE
 				     }
 					else
 				    {

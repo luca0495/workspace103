@@ -13,7 +13,6 @@ INDEX VERSION 1.130+C:\Users\luca\Documents\Github1\workspace103\.metadata\.plug
 1166326449.index
 4033920976.index
 889527592.index
-3646319793.index
 3920458890.index
 3045868724.index
 3392843127.index
