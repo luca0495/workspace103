@@ -8,6 +8,56 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Mike Milinkovich: On Naming, or Why EE4J Does Not Suck</title>
+	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1387</guid>
+	<link>https://mmilinkov.wordpress.com/2017/09/30/on-naming/</link>
+	<description>&lt;p style=&quot;padding-left: 60px;&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;“You keep using that word. I do not think it means what you think it means.” — Inigo Montoya, The Princess Bride, on Vizzini’s use of the word “inconceivable”.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;On Thursday we &lt;a href=&quot;https://mmilinkov.wordpress.com/2017/09/28/introducing-ee4j/&quot;&gt;announced&lt;/a&gt; that the &lt;a href=&quot;https://projects.eclipse.org/projects/ee4j/charter&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;draft top-level project charter&lt;/a&gt; for Eclipse Enterprise for Java (EE4J) was available for community feedback. Since that time, we haven’t received any feedback on the charter, but we have certainly had a lot of passionate feedback on the choice of name. If I could, I would summarize the bulk of the feedback that we’ve seen as “…EE4J is a pretty good acronym, but WTF is Eclipse doing in the name?” A lot of that feedback is based on some incorrect assumptions about what the EE4J name means. Which is totally my fault, because my initial blog post did not provide any context for how EE4J will be used, and not used, as a name and a brand. Hopefully this post will correct that.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Before I begin, I have to mention that a very large caveat on everything that follows. This post is based on my best guess on how things are going to work out, with the information I have at this moment. However, there are a significant number of agreements that have to be discussed regarding names, trademarks, and so on that have not yet been completed. It is possible that the future will not unfold as I think it will. So with that said….&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EE4J is not the brand&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;I think that many people are assuming that EE4J will become the brand that replaces Java EE. Wrong. Java EE is a certification mark. To label something as “Java EE”, you need to get a license from Oracle and pass the TCKs. There are many implementations of Java EE such as WebLogic, WebSphere, JBoss, and Glassfish. EE4J is the name of the top-level project  at the Eclipse Foundation. As such it is the umbrella under which the source code and TCKs for Glassfish, EclipseLink, and (hopefully) Eclipse MicroProfile will exist. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We are months away from even starting to define the specification process that will be used in the future. However, when we do I expect that this new process will create a new certification mark which can be properly considered the new “Java EE” name. We will be engaging with the community in the selection of that name. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;The existing project names will continue to be used&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;I have seen some comments along the lines of “…it’ll be weird to install Eclipse Enterprise for Java into IntelliJ”. I’m actually pretty sure that what people will be installing is more likely to be called something like Eclipse Glassfish, or Eclipse MicroProfile. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Again, EE4J is the name of the top-level project at Eclipse. The projects within EE4J will continue to have their own identity, just as they do today. The committers and the PMC for EE4J will be deciding what artifacts they will be releasing and whether anything actually ships under the name EE4J. Maybe they will, maybe they won’t. But only time will tell.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;The solution space is smaller than you think&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Anyone who has ever built and maintained a large piece of software knows that naming is hard. Naming widely used technologies that take on a brand identity and which require trademarking are harder still. Selecting the EE4J name had to solve a number of real world constraints:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We wanted it to contain the word Java, but it also had to comply with the Java trademark guidelines. Oracle is the only entity that can use the word Java at the beginning of a name. Which meant that using “for Java” was pretty much a fixed requirement. &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Whether you call it JEE, J2EE, or Java EE for the entire life of the enterprise Java platform “EE” has been in the name. Continuing that tradition provides some clear benefits in terms of continuity and brand recognition. For what it is worth, we basically selected the acronym first and then backed into what the letters in the acronym might mean.&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The name has to be available to be trademarked. We actually ran full legal trademark searches on a couple of alternate names, and EE4J was the clear winner in terms of availability. &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Hopefully this post provides some context for the naming choice that will help people understand what EE4J is, and is not, as a project name, brand, and trademark. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As Mark Little of Red Hat said &lt;a href=&quot;https://planet.jboss.org/post/ee4j_life_beyond_java_ee_begins_today&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;in his post earlier today&lt;/a&gt;, &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;There’s a lot of pent-up passion and energy around Java EE and it would be so much better if individuals focused that on the charter at this point than complaining about the name. Yes, I understand that some people feel the name is important to the success of this effort but I can tell you all that there’s a lot more to choosing a name for a foundation or massively successful project than just … choosing the name.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The passion and commitment of the people in the Java EE community is amazing. Working with this community and welcoming you all to Eclipse is an opportunity and a responsibility that all of us at the Eclipse Foundation take very seriously. The future success of EE4J and the enterprise Java platform is going to be determined by whether we can get you talented, smart, and passionate Javaistas to contribute to the projects and the community. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;I am looking forward to JavaOne next week, and hope to see many of you there!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;P.S. Comments and discussion are welcomed over on the &lt;a href=&quot;https://dev.eclipse.org/mailman/listinfo/ee4j-community&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;ee4j-community list&lt;/a&gt;. There are already over 100 subscribers there!&lt;/p&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://mmilinkov.wordpress.com/category/foundation/&quot;&gt;Foundation&lt;/a&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/mmilinkov.wordpress.com/1387/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/mmilinkov.wordpress.com/1387/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=mmilinkov.wordpress.com&amp;amp;blog=19461799&amp;amp;post=1387&amp;amp;subd=mmilinkov&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Sat, 30 Sep 2017 21:30:39 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Annual Donation Campaign: End User Support for the Eclipse Foundation</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/B7MSfmAKHzE/</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/B7MSfmAKHzE/</link>
+	<description>To encourage end-user support,  we are launching the October Donation Campaign. The goal is to have over 1000 individuals donate to the Eclipse Foundation and help support the overall community.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/B7MSfmAKHzE&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 29 Sep 2017 16:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Ian Skerrett: Annual Donation Campaign: End User Support for the Eclipse Foundation</title>
+	<guid isPermaLink="false">http://ianskerrett.wordpress.com/?p=4289</guid>
+	<link>http://feedproxy.google.com/~r/IanSkerrett/~3/B7MSfmAKHzE/</link>
+	<description>&lt;p&gt;The Eclipse Foundation is a not-for-profit organization that is mainly funded by fees from our &lt;a href=&quot;https://www.eclipse.org/membership/exploreMembership.php&quot;&gt;corporate members&lt;/a&gt;. Our corporate members definitely get a lot of value from their involvement with the Eclipse Foundation. Their support of the Eclipse Foundation is essential to the ongoing operations.&lt;/p&gt;
+&lt;p&gt;There are also millions of software developers who make use of Eclipse technology on a daily basis. For the most part these developers and their organization use the Eclipse IDE and other projects free of charge. Of course this is perfectly fine given the open source license for Eclipse projects. However, to sustain a community the size of the Eclipse Foundation requires ongoing support and resources. End user support for open source foundations, including the Eclipse Foundation, is important to the ongoing sustainability of the community.&lt;/p&gt;
+&lt;p&gt;To encourage end-user support,  we are launching the &lt;a href=&quot;https://www.eclipse.org/donate/&quot;&gt;October Donation Campaign&lt;/a&gt;. The goal is to have over 1000 individuals donate to the Eclipse Foundation and help support the overall community. Last year we ran our first annual donation campaign which resulted in 847 people donating to our community.  This year I am sure we can do better.&lt;/p&gt;
+&lt;p&gt;Please take the time to &lt;a href=&quot;https://www.eclipse.org/donate/&quot;&gt;donate to the Eclipse Foundation&lt;/a&gt;. For those &lt;a href=&quot;https://www.eclipse.org/donate/donorlist.php&quot;&gt;who have donated&lt;/a&gt; in the past, thank you! You will also notice that we now accept credit cards. This will make it easier for people who can’t/won’t use Paypal or bitcoin.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;master-donate-middletext-v2&quot; class=&quot;alignnone size-full wp-image-4327&quot; src=&quot;https://ianskerrett.files.wordpress.com/2017/09/master-donate-middletext-v2.jpg?w=450&quot; /&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/ianskerrett.wordpress.com/4289/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/ianskerrett.wordpress.com/4289/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=ianskerrett.wordpress.com&amp;amp;blog=405862&amp;amp;post=4289&amp;amp;subd=ianskerrett&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/IanSkerrett/~4/B7MSfmAKHzE&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 29 Sep 2017 14:18:26 +0000</pubDate>
+</item>
+<item>
 	<title>Mike Milinkovich: Introducing EE4J: The first  step towards Java EE at the Eclipse Foundation</title>
 	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1382</guid>
 	<link>https://mmilinkov.wordpress.com/2017/09/28/introducing-ee4j/</link>
@@ -30,6 +80,29 @@
 	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/yLHMta_TI9M/20170928_open_iot_challenge_4.php</link>
 	<description>IoT enthusiast? This Challenge is for you! Submit your IoT solution proposal by November 13.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/yLHMta_TI9M&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Thu, 28 Sep 2017 14:10:00 +0000</pubDate>
+</item>
+<item>
+	<title>Maximilian and Jonas: EMF Forms and EMF Client Platform 1.14.0 released! – Join us at EclipseCon Europe 2017</title>
+	<guid isPermaLink="false">https://eclipsesource.com/?p=35643</guid>
+	<link>https://eclipsesource.com/blogs/2017/09/28/emf-forms-and-emf-client-platform-1-14-0-released-join-us-at-eclipsecon-europe-2017/</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We are happy to announce that together with Oxygen.1, we have released  &lt;/span&gt;&lt;a href=&quot;http://eclipse.org/ecp/emfforms&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;EMF Forms&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and &lt;/span&gt;&lt;a href=&quot;http://eclipse.org/ecp&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;EMF Client Platform&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; 1.14.0! &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We want to thank our continuously active team of &lt;/span&gt;&lt;b&gt;10 contributors &lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;(&lt;/span&gt;&lt;b&gt;38 contributors&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; over all) for completing on &lt;/span&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&amp;amp;bug_status=NEW&amp;amp;bug_status=ASSIGNED&amp;amp;bug_status=REOPENED&amp;amp;bug_status=RESOLVED&amp;amp;bug_status=VERIFIED&amp;amp;bug_status=CLOSED&amp;amp;classification=Modeling&amp;amp;component=Common&amp;amp;component=Editor&amp;amp;component=EMF%20Forms&amp;amp;component=Model%20Workspace&amp;amp;component=Navigator&amp;amp;component=Validation&amp;amp;list_id=16486599&amp;amp;product=ECP&amp;amp;query_format=advanced&amp;amp;target_milestone=1.14.0&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;29 bug reports and feature requests&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;If you want to learn more about the new features and related frameworks: Join us at &lt;/span&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;EclipseCon Europe 2017&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-full wp-image-35645&quot; height=&quot;79&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/09/image11.png&quot; width=&quot;275&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In the session “&lt;/span&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/building-form-based-uis-emf-forms-101&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Building form-based UIs with EMF Forms – 101&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;” we will provide a jump start with the framework and answer most frequent questions for beginners.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In the session “&lt;/span&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/help-your-users-enter-data-correctly-and-easily-emf-forms&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Help your users to enter data correctly and easily with EMF Forms&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;” we will introduce some of the more advanced features from recent releases, with a focus on input validation.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Related to EMF Forms, we will show the native web renderer “JSON Forms” in the session “&lt;/span&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/developing-business-web-applications-form-based-uis&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Developing business web applications with form-based UIs&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;”&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;If you want to get in contact with the project leads and the community of contributors and adopters, please join our “&lt;/span&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/bof-session/emfforms-emf-client-platform-emfstore-json-forms-and-edapt&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;BOF&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;”&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As you can see, &lt;/span&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;EclipseCon Europe 2017&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; is a great place to learn more about EMF Forms, but of course also about many other great topics. Finally, please get in contact with us personally during the event in case you have any question or feedback. We will be around the whole week, typically at the EclipseSource Booth.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Besides EclipseCon: In case you don’t know EMF Forms: It is a framework focused on the creation of form-based UIs. EMF Client Platform is designed to support the development of applications based on an EMF data model. If you are not yet familiar with EMF Forms, please refer to &lt;/span&gt;&lt;a href=&quot;http://eclipsesource.com/blogs/tutorials/getting-started-with-EMF-Forms/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;this tutorial&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; for a introduction.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Both of these frameworks are part of Eclipse Modeling Tools Oxygen.1, but you can also find the new release on our download pages:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;http://eclipse.org/ecp/download.html&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Download EMF Client Platform&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;http://eclipse.org/ecp/emfforms/download.html&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Download EMF Forms&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+	<pubDate>Thu, 28 Sep 2017 12:06:33 +0000</pubDate>
 </item>
 <item>
 	<title>Maximilian and Jonas: EMF Support for Che – Day 6: Adding your own editor</title>
@@ -359,225 +432,6 @@ The plugin also integrates well with other plugins and external tools for which 
 	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/LLbL-9E10GA/registration</link>
 	<description>Register now and save €100! Prices go up after October 5.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/LLbL-9E10GA&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Thu, 21 Sep 2017 13:30:00 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Eclipse Newsletter - Eclipse MicroProfile</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/fB4slImX2c8/</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/fB4slImX2c8/</link>
-	<description>In the September issue of the Eclipse Newsletter, discover everything you need to know about Eclipse MicroProfile.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/fB4slImX2c8&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 20 Sep 2017 15:30:00 +0000</pubDate>
-</item>
-<item>
-	<title>JBoss Tools Team: JBoss Tools 4.5.1.AM2 for Eclipse Oxygen.1</title>
-	<guid isPermaLink="true">https://tools.jboss.org/blog/4.5.1.am2-for-oxygen.1.html</guid>
-	<link>https://tools.jboss.org/blog/4.5.1.am2-for-oxygen.1.html</link>
-	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Happy to announce 4.5.1.AM2 (Developer Milestone 2) build for Eclipse Oxygen.1.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Downloads available at &lt;a href=&quot;https://tools.jboss.org/downloads/jbosstools/oxygen/4.5.1.AM2.html&quot;&gt;JBoss Tools 4.5.1 AM2&lt;/a&gt;.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect1&quot;&gt;
-      &lt;h2 id=&quot;what-is-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-new&quot;&gt;&lt;/a&gt;What is New?&lt;/h2&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Full info is at &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.5.0.AM2.html&quot;&gt;this page&lt;/a&gt;. Some highlights are below.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;openshift-3&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#openshift-3&quot;&gt;&lt;/a&gt;OpenShift 3&lt;/h3&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;new-command-to-tune-resource-limits&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#new-command-to-tune-resource-limits&quot;&gt;&lt;/a&gt;New command to tune resource limits&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;A new command has been added to tune resource limits (CPU, memory) on an OpenShift deployment.
-      It’s available for a Service, a DeploymentConfig, a ReplicationController or a Pod.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;To activate it, go the the OpenShift explorer, select the OpenShift resource, right click and select &lt;code&gt;Edit resource limits&lt;/code&gt;.
-      The following dialog will show up:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;edit resource limits&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/edit-resource-limits.png&quot; width=&quot;600&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;After you changed the resource limits for this deployment, it will be updated and new pods will be spawned (not for ReplicationController)&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;edit resource limits1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/edit-resource-limits1.png&quot; width=&quot;600&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;discover-docker-registry-url-for-openshift-connections&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#discover-docker-registry-url-for-openshift-connections&quot;&gt;&lt;/a&gt;Discover Docker registry URL for OpenShift connections&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;When an OpenShift connection is created, the Docker registry URL is empty. When the CDK is started through the CDK server adapter, an OpenShift
-      connection is created or updated if a matching OpenShift connection is found. But what if you have several OpenShift connections, the remaining ones
-      will be left with the empty URL.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;You can find the matching Docker registry URL when editing the OpenShift connection through the &lt;code&gt;Discover&lt;/code&gt; button:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;edit connection discover&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/edit-connection-discover.png&quot; width=&quot;600&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Click on the &lt;code&gt;Discover&lt;/code&gt; button and the Docker registry URL will be filled if a matching started CDK server adapter is found:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;edit connection discover1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/edit-connection-discover1.png&quot; width=&quot;600&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;cdi-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#cdi-tools&quot;&gt;&lt;/a&gt;CDI Tools&lt;/h3&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;cdi-2-0&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#cdi-2-0&quot;&gt;&lt;/a&gt;CDI 2.0&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;CDI Tools now support CDI 2.0 projects. If your CDI project (with enabled CDI support) has CDI 2.0 jars in its classpath, CDI Tools will recognize it as CDI 2.0 project automatically.
-      There is no need to use any special settings to distinguish CDI 1.0 or CDI 1.1 from CDI 2.0 in CDI Tools.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The new javax.enterprise.event.ObservesAsync is now being validated according to the CDI specifications.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;fuse-tooling&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#fuse-tooling&quot;&gt;&lt;/a&gt;Fuse Tooling&lt;/h3&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;apache-karaf-4-x-server-adapter&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#apache-karaf-4-x-server-adapter&quot;&gt;&lt;/a&gt;Apache Karaf 4.x Server Adapter&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;We are happy to announce the addition of new Apache Karaf server adapters. You can now download and install Apache Karaf 4.0 and 4.1 from within your development environment.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;Apache Karaf 4x Server Adapters&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/karaf4xadapters.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;switch-apache-camel-version&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#switch-apache-camel-version&quot;&gt;&lt;/a&gt;Switch Apache Camel Version&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;You can now change the Apache Camel version used in your project. To do that you invoke the context menu of the project in the project explorer and navigate into the &lt;code&gt;Configure&lt;/code&gt; menu. There you will find the menu entry called &lt;code&gt;Change Camel Version&lt;/code&gt; which
-      will guide you through this process.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;Switch Camel Version&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/switchcamelversion.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;improved-validation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#improved-validation&quot;&gt;&lt;/a&gt;Improved Validation&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The validation in the editor has been improved to find containers which lack mandatory child elements. (for instance a Choice without a child element)&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;Improved validation&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/containerchildvalidation.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Enjoy!&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Jeff Maury&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Wed, 20 Sep 2017 07:02:47 +0000</pubDate>
-</item>
-<item>
-	<title>Chris Aniszczyk: Top 6 Public Cloud Providers in CNCF</title>
-	<guid isPermaLink="false">http://aniszczyk.org/?p=4151</guid>
-	<link>http://aniszczyk.org/2017/09/19/top-6-public-cloud-providers-in-cncf/</link>
-	<description>&lt;p&gt;Last week, I had the pleasure of &lt;a href=&quot;https://www.oracle.com/corporate/pressrelease/oracle-joins-cncf-091317.html&quot;&gt;welcoming Oracle&lt;/a&gt; into the &lt;a href=&quot;https://cncf.io&quot;&gt;Cloud Native Computing Foundation&lt;/a&gt; (CNCF). This now marks the &lt;a href=&quot;https://www.gartner.com/doc/reprints?id=1-2G2O5FC&amp;amp;ct=150519&quot;&gt;top 6 leading public cloud providers in the world&lt;/a&gt; are now part of the CNCF:&lt;/p&gt;
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
-&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;still amazing to have the top 6 public cloud providers (&quot;leaders and visionaries&quot;) part of the &lt;a href=&quot;https://twitter.com/CloudNativeFdn&quot;&gt;@CloudNativeFdn&lt;/a&gt; now! &lt;a href=&quot;https://t.co/1MoRG6fpaR&quot;&gt;https://t.co/1MoRG6fpaR&lt;/a&gt; &lt;a href=&quot;https://t.co/Vv0BVm6C9U&quot;&gt;pic.twitter.com/Vv0BVm6C9U&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;— Chris Aniszczyk (@cra) &lt;a href=&quot;https://twitter.com/cra/status/910255668816252928&quot;&gt;September 19, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;This also marks for the first time in the history of our industry that these leading cloud providers are working together in the same open source focused foundation to move the state of the art infrastructure forward.&lt;/p&gt;
-&lt;p&gt;Also last week I had the opportunity to bring in &lt;a href=&quot;https://www.linuxfoundation.org/blog/lyft-and-uber-on-stage-together-at-open-source-summit-in-l-a/&quot;&gt;two new high quality cloud native projects into CNCF&lt;/a&gt;. &lt;a href=&quot;https://www.cncf.io/blog/2017/09/13/cncf-hosts-envoy/&quot;&gt;Envoy&lt;/a&gt; is a high-performance open source edge and service proxy that makes the network transparent to applications. &lt;a href=&quot;https://www.cncf.io/blog/2017/09/13/cncf-hosts-jaeger/&quot;&gt;Jaeger&lt;/a&gt; is an open source distributed tracing system inspired by Google Dapper paper and OpenZipkin community. It can be used for tracing microservice-based architectures. Uber began deploying Jaeger internally in 2015. It is now integrated into thousands of microservices and recording thousands of traces every second.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Anyways, this is one of the reasons I enjoy working in open source today, bringing together diverse (and even competing) companies to build a better world by collaborating in the open!&lt;/p&gt;</description>
-	<pubDate>Tue, 19 Sep 2017 22:07:52 +0000</pubDate>
-</item>
-<item>
-	<title>Kichwa Coders: The Future of Developer Tools for IoT, ThingMonk 2017</title>
-	<guid isPermaLink="false">http://kichwacoders.com/?p=3018</guid>
-	<link>https://kichwacoders.com/2017/09/19/the-future-of-developer-tools-for-iot-thingmonk-2017/</link>
-	<description>&lt;p&gt;&lt;a href=&quot;http://thingmonk.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;ThingMonk&lt;/a&gt; is an annual London conference that brings together the people building and shaping the Internet of Things. This year I spoke at the conference on ‘The Future of Developer Tools for IoT’. This talk looks at emerging and future trends in the developer tools space. Check out the slides and feedback from the audience, as well as reference links at the end. Plus thanks to Marcel Bruch &amp;amp; &lt;a href=&quot;https://www.codetrails.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Codetrails&lt;/a&gt; for input on AI tools. Be sure to share your thoughts on how you see developer tools shaping up to scale for building the Internet of Things.&lt;/p&gt;
-&lt;div class=&quot;embed-speakerdeck&quot;&gt;&lt;/div&gt;
-&lt;p&gt;&lt;span id=&quot;more-3018&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;div class=&quot;embed-twitter&quot;&gt;
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
-&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;Always great to listen to &lt;a href=&quot;https://twitter.com/tracymiranda&quot;&gt;@tracymiranda&lt;/a&gt; share her vision of IoT Developer tools. &lt;a href=&quot;https://t.co/hxIFDNyl28&quot;&gt;pic.twitter.com/hxIFDNyl28&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;— Ian Skerrett (@IanSkerrett) &lt;a href=&quot;https://twitter.com/IanSkerrett/status/907930911773208576&quot;&gt;September 13, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&quot;embed-twitter&quot;&gt;
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
-&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/thingmonk?src=hash&quot;&gt;#thingmonk&lt;/a&gt; regular &lt;a href=&quot;https://twitter.com/tracymiranda&quot;&gt;@tracymiranda&lt;/a&gt; on the &quot;Oh, this is great. … Shit, how am I going to debug this.&quot; moment in &lt;a href=&quot;https://twitter.com/hashtag/IoT?src=hash&quot;&gt;#IoT&lt;/a&gt;. Real talk. &lt;a href=&quot;https://t.co/nQxahZ9rrq&quot;&gt;pic.twitter.com/nQxahZ9rrq&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;— Dr. Boris Adryan (@BorisAdryan) &lt;a href=&quot;https://twitter.com/BorisAdryan/status/907931175850856450&quot;&gt;September 13, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&quot;embed-twitter&quot;&gt;
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
-&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;Fragmentation in &lt;a href=&quot;https://twitter.com/hashtag/IoT?src=hash&quot;&gt;#IoT&lt;/a&gt; doesn't stop at Devices. Programming language variability makes Dev tools/IDE hard to keep up &lt;a href=&quot;https://twitter.com/tracymiranda&quot;&gt;@tracymiranda&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/ThingMonk?src=hash&quot;&gt;#ThingMonk&lt;/a&gt; &lt;a href=&quot;https://t.co/Y1e3GymjyA&quot;&gt;pic.twitter.com/Y1e3GymjyA&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;— Sarah Cooper (@SMC_on_IoT) &lt;a href=&quot;https://twitter.com/SMC_on_IoT/status/907933049937113089&quot;&gt;September 13, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&quot;embed-twitter&quot;&gt;
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
-&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;It's &lt;a href=&quot;https://twitter.com/tracymiranda&quot;&gt;@tracymiranda&lt;/a&gt; talking the IDE spectrum and risking angering the Vi &amp;amp; Emacs gods &lt;a href=&quot;https://twitter.com/hashtag/thingmonk?src=hash&quot;&gt;#thingmonk&lt;/a&gt; &lt;a href=&quot;https://t.co/tRNp0Pc2ub&quot;&gt;pic.twitter.com/tRNp0Pc2ub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;— Ant Stanley &lt;img alt=&quot;🐶&quot; class=&quot;wp-smiley&quot; src=&quot;https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f436.png&quot; style=&quot;height: 1em;&quot; /&gt; (@IamStan) &lt;a href=&quot;https://twitter.com/IamStan/status/907932934069420032&quot;&gt;September 13, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&quot;embed-twitter&quot;&gt;
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
-&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;&quot;Embedded tools aren't really known for their usability&quot; The truth! &lt;a href=&quot;https://twitter.com/tracymiranda&quot;&gt;@tracymiranda&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/thingmonk?src=hash&quot;&gt;#thingmonk&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;— Omer Kilic (@OmerK) &lt;a href=&quot;https://twitter.com/OmerK/status/907932301568434176&quot;&gt;September 13, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&quot;embed-twitter&quot;&gt;
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
-&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;Visual Tools required to make &lt;a href=&quot;https://twitter.com/hashtag/IoT?src=hash&quot;&gt;#IoT&lt;/a&gt; accessible, but delivering code at scale is still unreachable &lt;a href=&quot;https://twitter.com/tracymiranda&quot;&gt;@tracymiranda&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/ThingMonk?src=hash&quot;&gt;#ThingMonk&lt;/a&gt; &lt;a href=&quot;https://t.co/qFKrHFh8U9&quot;&gt;pic.twitter.com/qFKrHFh8U9&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;— Sarah Cooper (@SMC_on_IoT) &lt;a href=&quot;https://twitter.com/SMC_on_IoT/status/907934150686109696&quot;&gt;September 13, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&quot;embed-twitter&quot;&gt;
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
-&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;Great to see LSP being mentioned by &lt;a href=&quot;https://twitter.com/tracymiranda&quot;&gt;@tracymiranda&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/iot?src=hash&quot;&gt;#iot&lt;/a&gt; &lt;a href=&quot;https://t.co/zPLGPrpdBm&quot;&gt;pic.twitter.com/zPLGPrpdBm&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;— thingmonk (@thingmonk) &lt;a href=&quot;https://twitter.com/thingmonk/status/907934932885962753&quot;&gt;September 13, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class=&quot;embed-twitter&quot;&gt;
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
-&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/ai?src=hash&quot;&gt;#ai&lt;/a&gt; tools to reduce security bugs in software… but no one wants to use them. Interesting &lt;a href=&quot;https://twitter.com/hashtag/security?src=hash&quot;&gt;#security&lt;/a&gt; problem at &lt;a href=&quot;https://twitter.com/hashtag/thingmonk?src=hash&quot;&gt;#thingmonk&lt;/a&gt; &lt;a href=&quot;https://t.co/poZ6lvKkgv&quot;&gt;pic.twitter.com/poZ6lvKkgv&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;— Joe Pindar (@joepindar) &lt;a href=&quot;https://twitter.com/joepindar/status/907934741835513858&quot;&gt;September 13, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;h2&gt;Reference Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Eclipse IoT Developer Survey Slides-&lt;a href=&quot;https://www.slideshare.net/IanSkerrett/iot-developer-survey-2017&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt; https://www.slideshare.net/IanSkerrett/iot-developer-survey-2017&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/0B4wohKJVD2qGT1NvX0MyeFpjUUE/view&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Eclipse IoT Developer Survey raw dat&lt;/a&gt;a&lt;/li&gt;
-&lt;li&gt;Eclipse Java IDE twitter – @eclipsejavaide&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/cdt/&quot; rel=&quot;nofollow&quot;&gt;http://www.eclipse.org/cdt/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;AI powered bug detection from CodeTrails – https://www.codetrails.com/developer-assistance-tools/&lt;/li&gt;
-&lt;li&gt;AI dev tools – https://www.linkedin.com/in/marcelbruch/detail/recent-activity/posts/&lt;/li&gt;
-&lt;li&gt;LSP Protocol Implementations – https://github.com/Microsoft/language-server-protocol/wiki/Protocol-Implementations&lt;/li&gt;
-&lt;li&gt;Debug Protocol – https://code.visualstudio.com/docs/extensions/example-debuggers&lt;/li&gt;
-&lt;li&gt;Atom IDE – http://blog.atom.io/2017/09/12/announcing-atom-ide.html&lt;/li&gt;
-&lt;li&gt;Code editor in Skype https://www.producthunt.com/posts/interviews-on-skype&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/che&quot; rel=&quot;nofollow&quot;&gt;http://www.eclipse.org/che&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/xtext&quot; rel=&quot;nofollow&quot;&gt;http://www.eclipse.org/xtext&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.crossminer.org/&quot; rel=&quot;nofollow&quot;&gt;http://www.crossminer.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;microbit.org/code/&lt;/li&gt;
-&lt;/ul&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/kichwacoders.wordpress.com/3018/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/kichwacoders.wordpress.com/3018/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=kichwacoders.com&amp;amp;blog=68353182&amp;amp;post=3018&amp;amp;subd=kichwacoders&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Sep 2017 16:07:44 +0000</pubDate>
 </item>
 
 </channel>

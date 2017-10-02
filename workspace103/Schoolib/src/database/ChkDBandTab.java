@@ -114,14 +114,14 @@ public class ChkDBandTab {
 	 
 		 statement.executeUpdate
                   ("CREATE TABLE  utente ( "
-                  +"id varchar (16) not null,"
+                  +"id serial primary key,"
                   +"nome varchar(20) not null,"
                   +"cognome varchar(20) not null,"
-                  +"password varchar(20) not null,"
                   +"email varchar(20) not null,"
+                  +"codice_fiscale varchar(16) not null,"
                   +"inquadramento varchar(20) not null,"
+                  +"password varchar(20) not null,"
                   +"ntel varchar(10) not null,"
-                  +"primary key (id),"
                   +"unique (email))")  ;
 		 
 		 System.out.println("ChkDBandTable :> table Person CREATED !");
@@ -146,7 +146,7 @@ public class ChkDBandTab {
 			 statement.executeUpdate
 	                  ("CREATE TABLE  prestiti ( "
 	                  +"codice varchar(10) not null,"
-	                  +"id varchar (16) not null,"
+	                  +"id serial not null,"
 	                  +"titolo varchar(35) not null,"
 	                  +"nome_autore varchar(15) not null,"
 	                  +"cognome_autore varchar(15) not null,"

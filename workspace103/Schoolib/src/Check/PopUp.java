@@ -1,28 +1,31 @@
 package Check;
 
+import java.awt.Component;
+
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 public class PopUp
 {
 
-	public static void infoBox(String infoMessage)
+	public static void infoBox(Component c,String infoMessage)
 	{		
-	    JOptionPane.showMessageDialog(null, infoMessage, "Info", JOptionPane.INFORMATION_MESSAGE);
+	    JOptionPane.showMessageDialog(c, infoMessage, "Info", JOptionPane.INFORMATION_MESSAGE);
 	}
 	
-	public static void warningBox(String warningMessage)
+	public static void warningBox(Component c, String warningMessage)
 	{		
-	    JOptionPane.showMessageDialog(null, warningMessage, "Attenzione", JOptionPane.WARNING_MESSAGE);
+	    JOptionPane.showMessageDialog(c, warningMessage, "Attenzione", JOptionPane.WARNING_MESSAGE);
 	}
 	
-	public static void errorBox(String errorMessage)
+	public static void errorBox(Component c,String errorMessage)
 	{		
-	    JOptionPane.showMessageDialog(null, errorMessage, "Errore", JOptionPane.ERROR_MESSAGE);
+	    JOptionPane.showMessageDialog(c, errorMessage, "Errore", JOptionPane.ERROR_MESSAGE);
 	}
 		    
-	public static boolean confirmBox()
+	public static boolean confirmBox(Component c)
 	{
-	    if (JOptionPane.showConfirmDialog(null, "Sei sicuro ?", "Richiesta", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE) == JOptionPane.YES_OPTION)
+	    if (JOptionPane.showConfirmDialog(c, "Sei sicuro ?", "Richiesta", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE) == JOptionPane.YES_OPTION)
 	    {
 	    	return true;
 	    }

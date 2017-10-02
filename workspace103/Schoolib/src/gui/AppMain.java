@@ -215,7 +215,6 @@ public class AppMain extends SL_JFrame  {
 		JButton btnEsci = new JButton("Esci");
 		btnEsci.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				SL_JF.dispose();
 				System.exit(0);
 			}
 		});

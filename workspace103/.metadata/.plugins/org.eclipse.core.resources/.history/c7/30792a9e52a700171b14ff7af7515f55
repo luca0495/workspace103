@@ -1,0 +1,15 @@
+package database;
+
+import java.sql.SQLException;
+
+public class MQ_Insert {
+	
+	public static void insertCliente(String name, String surname, String inq, String mail,  String cf, String tel, String pass) throws SQLException
+	{
+		String query = "INSERT INTO utente(codice_fiscale, mail, password, nome, cognome, telefono) VALUES('" + cf + "' , '" + mail + "' , '" + pass + "' , '" + name + "' , '" + surname + "' , '" + tel + "')";
+		DBmanager.openConnection();
+		DBmanager.executeUpdate(query);
+		DBmanager.closeConnection();
+	}
+
+}

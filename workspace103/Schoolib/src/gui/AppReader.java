@@ -11,6 +11,7 @@ import javax.swing.JLabel;
 import javax.swing.JMenu;
 
 import java.awt.Font;
+import java.awt.Frame;
 import java.awt.LayoutManager;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
@@ -18,16 +19,20 @@ import java.awt.event.ActionListener;
 import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
 import java.awt.event.WindowEvent;
+import java.sql.SQLException;
 
 import javax.swing.JTextField;
 import javax.swing.JRadioButton;
 import javax.swing.JRadioButtonMenuItem;
 import javax.swing.SwingConstants;
+import javax.swing.Timer;
 
 import Check.Check;
 import Check.PopUp;
 import Core.Clients;
 import connections.Client;
+import database.MQ_Check;
+import database.MQ_Insert;
 
 import javax.swing.JComboBox;
 import javax.swing.ImageIcon;
@@ -86,6 +91,10 @@ public class AppReader extends SL_JFrame {
 		JPanel panelSelection = new JPanel();
 		frmSchoolib.getContentPane().add(panelSelection, "name_353237010061838");
 		panelSelection.setLayout(null);
+		
+		JPanel panelLog = new JPanel();
+		frmSchoolib.getContentPane().add(panelLog);
+		panelLog.setLayout(null);
 
 		
 		ImageIcon iconLogoT = new ImageIcon(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/images/Tick.png")));
@@ -110,11 +119,6 @@ public class AppReader extends SL_JFrame {
 		lblInquadr.setFont(new Font("Tahoma", Font.PLAIN, 17));
 		lblInquadr.setBounds(20, 258, 113, 24);
 		panelSelection.add(lblInquadr);
-		
-		txtInquadr = new JTextField();
-		txtInquadr.setBounds(143, 263, 183, 20);
-		panelSelection.add(txtInquadr);
-		txtInquadr.setColumns(10);
 		
 		JLabel lblCF = new JLabel("Codice Fiscale");
 		lblCF.setFont(new Font("Tahoma", Font.PLAIN, 17));
@@ -149,7 +153,7 @@ public class AppReader extends SL_JFrame {
 		panelSelection.add(lblCheckEmail);
 		
 		JLabel lblCheckInq = new JLabel();
-		lblCheckInq.setBounds(330, 236, 16, 16);
+		lblCheckInq.setBounds(345, 266, 16, 16);
 		panelSelection.add(lblCheckInq);
 		
 		JLabel lblCheckCF = new JLabel();
@@ -227,9 +231,14 @@ public class AppReader extends SL_JFrame {
 		txtEmail = new JTextField();
 		txtEmail.addFocusListener(new FocusAdapter() {
 			@Override
+			public void focusGained(FocusEvent e) {
+				panelSelection.getRootPane().setDefaultButton(btnReg);
+			}
+		});
+		txtEmail.addFocusListener(new FocusAdapter() {
+			@Override
 			public void focusLost(FocusEvent arg0) {
 				
-			/*	
 				if(Check.checkMail(txtEmail.getText()) && Check.checkMailExist(txtEmail.getText())) 
 				{
 					lblCheckEmail.setIcon(iconLogoT);	
@@ -238,7 +247,7 @@ public class AppReader extends SL_JFrame {
 				{
 					lblCheckEmail.setIcon(iconLogoC);	
 				}
-			*/
+			
 			}
 		});
 		txtEmail.setBounds(143, 187, 183, 20);
@@ -248,23 +257,44 @@ public class AppReader extends SL_JFrame {
 		
 		//txtinqu e check
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		txtInquadr = new JTextField();
+		txtInquadr.addFocusListener(new FocusAdapter() {
+			@Override
+			public void focusGained(FocusEvent e) {
+				panelSelection.getRootPane().setDefaultButton(btnReg);
+			}
+		});
+		txtInquadr.addFocusListener(new FocusAdapter() {
+			@Override
+			public void focusLost(FocusEvent arg0) {
+				
+			    if(Check.checkInq(txtInquadr.getText())) 
+				{
+			    	lblCheckInq.setIcon(iconLogoT);	
+				}
+				else
+				{
+					lblCheckInq.setIcon(iconLogoC);	
+				}
+			
+			}
+		});
+		txtInquadr.setBounds(143, 263, 183, 20);
+		panelSelection.add(txtInquadr);
+		txtInquadr.setColumns(10);
 		
 		// verifico codice fiscale
 		txtCF = new JTextField();
 		txtCF.addFocusListener(new FocusAdapter() {
 			@Override
+			public void focusGained(FocusEvent e) {
+				panelSelection.getRootPane().setDefaultButton(btnReg);
+			}
+		});
+		txtCF.addFocusListener(new FocusAdapter() {
+			@Override
 			public void focusLost(FocusEvent arg0) {
-				/*
+				
 				if(Check.checkCF(txtCF.getText()) && Check.checkCodFisExist(txtCF.getText()))
 				{
 					lblCheckCF.setIcon(iconLogoT);
@@ -273,7 +303,7 @@ public class AppReader extends SL_JFrame {
 				{
 					lblCheckCF.setIcon(iconLogoC);	
 				}
-				*/
+				
 			}
 		});
 		txtCF.setBounds(143, 339, 177, 20);
@@ -282,6 +312,12 @@ public class AppReader extends SL_JFrame {
 		
 		// verifico password
 		passwordField = new JPasswordField();
+		passwordField.addFocusListener(new FocusAdapter() {
+			@Override
+			public void focusGained(FocusEvent e) {
+				panelSelection.getRootPane().setDefaultButton(btnReg);
+			}
+		});
 		passwordField.addFocusListener(new FocusAdapter() {
 			@Override
 			public void focusLost(FocusEvent e) {
@@ -301,6 +337,12 @@ public class AppReader extends SL_JFrame {
 		
 		// verifico la conferma della password
 		passwordFieldCh = new JPasswordField();
+		passwordFieldCh.addFocusListener(new FocusAdapter() {
+			@Override
+			public void focusGained(FocusEvent e) {
+				panelSelection.getRootPane().setDefaultButton(btnReg);
+			}
+		});
 		passwordFieldCh.addFocusListener(new FocusAdapter() {
 			@Override
 			public void focusLost(FocusEvent arg0) {
@@ -323,6 +365,12 @@ public class AppReader extends SL_JFrame {
 		txtPhone = new JTextField();
 		txtPhone.addFocusListener(new FocusAdapter() {
 			@Override
+			public void focusGained(FocusEvent e) {
+				panelSelection.getRootPane().setDefaultButton(btnReg);
+			}
+		});
+		txtPhone.addFocusListener(new FocusAdapter() {
+			@Override
 			public void focusLost(FocusEvent arg0) {
 				
 				if(Check.checkTel(txtPhone.getText()))
@@ -339,22 +387,51 @@ public class AppReader extends SL_JFrame {
 		panelSelection.add(txtPhone);
 		txtPhone.setColumns(10);
 		
+		btnReg.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				if(Check.checkAllReg(txtName.getText(), txtSurname.getText(),txtPhone.getText(),txtEmail.getText(),txtCF.getText(),
+						passwordField.getPassword(), passwordFieldCh.getPassword(), txtInquadr.getText()))
+				{
+				
+					String p = String.copyValueOf(passwordField.getPassword());
+					
+					try 
+					{						
+						MQ_Insert.insertUtente(txtName.getText(), txtSurname.getText(), txtInquadr.getText(), txtEmail.getText(), txtCF.getText(), txtPhone.getText(), p);
+					}
+					
+					catch (SQLException e1)
+					{
+						e1.printStackTrace();
+				     }
+					 PopUp.infoBox(c, "Registrazione avvenuta con successo");
+					// timer per panel nuovo RIVEDERE
+				     }
+					else
+				    {
+							PopUp.warningBox(frmSchoolib, "Campi Errati");
+					}
+				     // timer per panel nuovo RIVEDERE
+							WindowEvent close = new WindowEvent(frmSchoolib, WindowEvent.WINDOW_CLOSING);
+						    frmSchoolib.dispatchEvent(close);
+
+				}
+		});
+	   
 		btnReg.setBounds(470, 443, 147, 23);
 		panelSelection.add(btnReg);
 		
 		JButton btnCancelReg = new JButton("Annulla");
 		btnCancelReg.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				PopUp.warningBox("Tutti i dati immessi verranno cancellati");
+				PopUp.warningBox(frmSchoolib, "Tutti i dati immessi verranno cancellati");
 				
-				if(PopUp.confirmBox())
+				if(PopUp.confirmBox(c))
 				{
 					
 					 WindowEvent close = new WindowEvent(frmSchoolib, WindowEvent.WINDOW_CLOSING);
 					 frmSchoolib.dispatchEvent(close);
-					
-					 
-					 //devo mettere a null sia i txtbox sia le icone
 					
 			       }   
 				}

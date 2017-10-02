@@ -9,6 +9,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import database.MQ_Check;
+
 public class Check {
 
 	
@@ -76,14 +78,14 @@ public class Check {
 	    return true;
     }
     
-  /*  
+  
     public static boolean checkMailExist(String m)
     {
 		String results = null;
 		
 		try 
 		{
-			results = Query.selectCF(m);
+			results = MQ_Check.selectCF(m);
 		} 
 		catch (SQLException e)
 		{
@@ -99,7 +101,7 @@ public class Check {
 			return false;
 		}	
     }
-   */ 
+   
     
 	public static boolean checkPass(char[] c)
     {
@@ -174,14 +176,14 @@ public class Check {
 	    return true;
     }
 	
-	/*
+	
 	public static boolean checkCodFisExist(String c)
 	{
 		String results = null;
 		
 		try 
 		{
-			results = Query.selectCFexist(c);
+			results = MQ_Check.selectCFexist(c);
 		} 
 		catch (SQLException e)
 		{
@@ -197,7 +199,20 @@ public class Check {
 			return false;
 		}	
 	}
-	*/
+	 public static boolean checkInq(String s)
+	    {	
+	    	return (s.length() <= 50);
+	    }
+	 
+	 public static boolean checkAllReg(String nome, String cognome, String telefono, String email, String codicefiscale, char[] pass, char[] passC, String inq)
+	    {
+	    	return checkName(nome) && checkName(cognome) && checkTel(telefono) && checkMail(email) && checkMailExist(email) && checkCF(codicefiscale) && checkCodFisExist(codicefiscale) && checkPass(pass) && checkPass(passC) 
+	    			&& checkPassEq(pass, passC)&& checkInq(inq);
+	    }
+	 
+	 
+	//********************************************
+	/*
 	public static boolean checkDate(String d) 
 	{	
 	    SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
@@ -256,11 +271,6 @@ public class Check {
 		}
     }
 	
-    public static boolean checkInfo(String s)
-    {	
-    	return (s.length() <= 1000);
-    }
-    /*
 	public static boolean checkOccupiedSeats(List<String> data)
 	{
 		List<String> occupiedSeats = new ArrayList<String>();
@@ -282,7 +292,7 @@ public class Check {
 		}
 		return true;
 	}
-    */
+    
     public static boolean checkSeat(String s)
     {	
     	String[] posti = new String[]{"A1","A2","A3","A4","B1","B2","B3","B4","C1","C2","C3","C4"};
@@ -308,7 +318,8 @@ public class Check {
         	return true;
     	}
     }
-    /*
+    
+    //VEDERE QUI PER LIBRARIAN
     public static String checkLogIn(String mail, String pass) throws SQLException
     {
     	
@@ -344,9 +355,7 @@ public class Check {
     	}
 		
     }
-  */  
-    
-    /*
+    // VEDERE QUI PER LIBRARIAN
     public static String checkAdminLogIn(String username, String pass) throws SQLException
     {
     	
@@ -377,13 +386,9 @@ public class Check {
     	}
 		
     }
-    public static boolean checkAllReg(String nome, String cognome, String telefono, String email, String codicefiscale, 
-    		LocalDate dataInizio, LocalDate dataFine, char[] pass, char[] passC, String info)
-    {
-    	return checkName(nome) && checkName(cognome) && checkTel(telefono) && checkMail(email) && checkMailExist(email) && checkCF(codicefiscale) && checkCodFisExist(codicefiscale) && checkPass(pass) && checkPass(passC) 
-    			&& checkPassEq(pass, passC) && checkCompareDates(dataInizio, dataFine) && checkInfo(info);
-    }
-    
+    */
+    /*
+     // CHECK ALLCLI
     public static boolean checkAllCli(List<String> data)
     {
     	return checkCF(data.get(0)) && checkCodFisExist(data.get(0)) && checkMail(data.get(1)) && checkMailExist(data.get(1)) && checkPass(data.get(2)) && checkName(data.get(3)) && checkName(data.get(4)) && checkTel(data.get(5));
@@ -421,5 +426,5 @@ public class Check {
     			
     }
     */
-
+//******************************************************
 }
